@@ -1,0 +1,108 @@
+.header {
+  background: #000000;
+}
+.header .header-top {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto auto;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem 0;
+  border-bottom: 0.1rem solid #161616;
+}
+.header .header-top .logo {
+  width: 15rem;
+}
+.header .header-top .logo .icon {
+  width: 100%;
+}
+.header .header-top .form-search {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin: 0 3rem;
+  border-radius: 0.4rem;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.header .header-top .form-search .input-search {
+  font-family: var(--jakarta);
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #757575;
+  padding: 1.5rem;
+  width: 100%;
+  border: none;
+}
+.header .header-top .form-search .btn-search {
+  padding: 0rem 2rem;
+}
+.header .header-top .form-search .btn-search:hover {
+  cursor: pointer;
+}
+.header .header-top .form-search .btn-search .icon {
+  width: 1.5rem;
+}
+.header .header-top .user-info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5rem;
+}
+.header .header-top .user-info .icon {
+  width: 2.5rem;
+}
+.header .header-top .user-info .user-welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.2rem;
+}
+.header .header-top .user-info span,
+.header .header-top .user-info .user-sign-up,
+.header .header-top .user-info .user-sign-in {
+  font-family: var(--jakarta);
+  font-size: 1.2rem;
+  color: #ffffff;
+  display: inline;
+}
+
+.header .header-top .user-info .user-sign-up:hover,
+.header .header-top .user-info .user-sign-in:hover {
+  color: #af2500;
+}
+.header .header-top .like .icon {
+  width: 2.5rem;
+}
+.header .header-top .bag {
+  position: relative;
+}
+.header .header-top .bag .icon {
+  width: 2.5rem;
+}
+.header .header-top .bag .quantity {
+  position: absolute;
+  left: -1rem;
+  top: -0.5rem;
+  background-color: #af2500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  font-family: var(--inter);
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+.header .header-list .list-types {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header-list .item {
+  font-family: var(--jakarta);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #ffffff;
+}

@@ -1,0 +1,13 @@
+#resolution-container {
+  position: fixed;
+  width: 70px;
+  background: greenyellow;
+  padding: 5px;
+  z-index: 999;
+  left: 10px;
+  top: 10px;
+  color: black;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 5px;
+}

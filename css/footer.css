@@ -1,0 +1,20 @@
+.footer {
+  background: #f5ecdd;
+  padding: 4rem 0;
+}
+.footer .row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.footer .copyright,
+.footer .developer {
+  font-family: var(--inter);
+  font-size: 1.3rem;
+  text-align: center;
+  color: #313131;
+  font-weight: 500;
+}
+.footer .developer {
+  font-weight: 700;
+}

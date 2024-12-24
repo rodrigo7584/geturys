@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box !important;
+}
+:root {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box !important;
+  color: #000;
+  --inter: 'Jakarta', sans-serif;
+  --jakarta: 'Jakarta', sans-serif;
+}
+/*
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
+@media (max-width: 400px) {
+}
+*/
+body {
+  position: relative;
+}
+
+.btn {
+  font-family: var(--inter);
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-weight: 600;
+  padding: 1.2rem 3.2rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 10rem;
+}
+.btn:hover {
+  cursor: pointer;
+  transform: scale(0.98);
+}
+.btn-white {
+  border-color: #ffffff;
+  color: #0c1313;
+  background: #ffffff;
+}
+.btn-transparent {
+  border-color: #ffffff;
+  color: #ffffff;
+  background: transparent;
+}
