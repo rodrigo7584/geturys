@@ -28,7 +28,22 @@
 body {
   position: relative;
 }
-
+.title {
+  font-family: var(--jakarta);
+  color: #000000;
+  font-weight: 600;
+  font-size: 3.6rem;
+  line-height: 1.2;
+}
+.title-thin {
+  font-family: var(--jakarta);
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.8rem;
+  letter-spacing: 1rem;
+  line-height: 1.5;
+}
 .btn {
   font-family: var(--inter);
   font-size: 1.6rem;
