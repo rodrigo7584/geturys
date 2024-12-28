@@ -1,13 +1,18 @@
+/* GLOBAL CSS */
 @import url('./reset.css');
 @import url('./fonts.css');
 @import url('./container.css');
 @import url('./global.css');
 
+/*DEVELOPMENT CSS*/
 @import url('./resolution.css');
 
+/*SRC PARTS CSS*/
 @import url('./header.css');
+@import url('./footer.css');
+@import url('./product-card.css');
 
+/*PEGES CSS*/
 @import url('./home-hero.css');
 @import url('./home-new-collection.css');
-
-@import url('./footer.css');
+@import url('./home-who-we-are.css');

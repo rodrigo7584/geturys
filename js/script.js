@@ -38,3 +38,23 @@ window.addEventListener('load', function () {
   // Atualiza os valores quando a janela for redimensionada
   window.addEventListener('resize', updateInfo)
 })
+
+const swiperNewCollection = new Swiper('.swiper-new-collection .swiper', {
+  loop: true,
+  slidesPerView: 3,
+  spaceBetween: 25,
+  navigation: {
+    nextEl: '.swiper-new-collection .button-next',
+    prevEl: '.swiper-new-collection .button-prev'
+  }
+})
+
+const swiperWhoWeAre = new Swiper('.swiper-who-we-are .swiper', {
+  loop: true,
+  slidesPerView: 'auto',
+  spaceBetween: 25,
+  navigation: {
+    nextEl: '.swiper-who-we-are .button-prev',
+    prevEl: '.swiper-who-we-are .button-next'
+  }
+})

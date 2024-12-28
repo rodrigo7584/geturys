@@ -1,0 +1,38 @@
+.new-collection {
+  padding: 8rem 0;
+}
+.new-collection .title-thin {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.new-collection .title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.new-collection .swiper-new-collection {
+  display: grid;
+  grid-template-columns: 6rem 1fr 6rem;
+  align-items: center;
+}
+.new-collection .swiper-new-collection .swiper {
+  width: 100%;
+}
+.new-collection .swiper-new-collection .button-next,
+.new-collection .swiper-new-collection .button-prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  width: 6rem;
+}
+.new-collection .swiper-new-collection .button-next:hover,
+.new-collection .swiper-new-collection .button-prev:hover {
+  cursor: pointer;
+}
+.new-collection .swiper-new-collection .button-next .icon,
+.new-collection .swiper-new-collection .button-prev .icon {
+  width: 2rem;
+}
+.new-collection .swiper-new-collection .button-next .icon {
+  transform: rotate(180deg);
+}

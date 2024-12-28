@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Geturys</title>
     <link rel="icon" href="./img/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -94,16 +95,55 @@
             </div>
           </div>
           <div class="row row-cards">
-            <div class="product-card">
-              <div class="container-like">
-                <button class="btn-like">
-                  <img src="./img/heart-2.svg" alt="" />
-                </button>
+            <div class="swiper-new-collection">
+              <div class="button-prev">vem</div>
+              <div class="button-next">vai</div>
+              <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"></div>
+                  <div class="swiper-slide">Slide 2</div>
+                  <div class="swiper-slide">Slide 3</div>
+                </div>
               </div>
+            </div>
+            <div class="product-card">
+              <button class="btn-like">
+                <img src="./img/heart-2.svg" alt="" class="icon" />
+              </button>
+
               <div class="product-thumb">
                 <img src="./img/avulso-1.png" alt="" class="product-img" />
               </div>
-              <h3 class="title"></h3>
+
+              <h3 class="product-title">Óculos De Sol Geturys Masculino</h3>
+
+              <div class="stars-comments">
+                <div class="stars">
+                  <img src="./img/star.svg" alt="" class="icon" />
+                  <img src="./img/star.svg" alt="" class="icon" />
+                  <img src="./img/star.svg" alt="" class="icon" />
+                  <img src="./img/star.svg" alt="" class="icon" />
+                  <img src="./img/star.svg" alt="" class="icon" />
+                </div>
+                <div class="comments">
+                  <img src="./img/ballon.svg" alt="" class="icon" />
+                  <span class="score">5.0</span>
+                </div>
+              </div>
+              <div class="product-card-footer">
+                <div class="price-container">
+                  <div class="old-price-discount">
+                    <span class="old-price"> R$ 249,00 </span>
+                    <span class="discount"> -10% </span>
+                  </div>
+                  <h4 class="price">R$149,00</h4>
+                </div>
+                <button class="btn-chart">
+                  <img src="./img/chart.svg" alt="" class="icon" />
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -117,6 +157,7 @@
         </div>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>
