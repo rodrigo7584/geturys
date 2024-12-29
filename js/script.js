@@ -58,3 +58,13 @@ const swiperWhoWeAre = new Swiper('.swiper-who-we-are .swiper', {
     prevEl: '.swiper-who-we-are .button-next'
   }
 })
+
+const swiperTestimonials = new Swiper('.swiper-testimonials .swiper', {
+  loop: true,
+  slidesPerView: 3,
+  spaceBetween: 25,
+  navigation: {
+    nextEl: '.swiper-testimonials .button-next',
+    prevEl: '.swiper-testimonials .button-prev'
+  }
+})

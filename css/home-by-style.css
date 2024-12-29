@@ -1,0 +1,27 @@
+.by-style{
+  padding: 8rem 0;
+}
+.by-style .row-title .title-thin {
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+}
+.by-style .row-title .title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.by-style .row-content{
+  background:url('../img/por-estilo.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding:23rem 0;
+  gap: 3rem;
+}
+.by-style .row-content .btn{
+  width: 30rem;
+  text-align: center;
+  font-size: 2rem;
+}

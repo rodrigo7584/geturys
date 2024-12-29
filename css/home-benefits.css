@@ -1,0 +1,37 @@
+.benefits{
+  padding: 4rem 0;
+}
+.benefits .title{
+  margin-bottom: 4rem;
+}
+.benefits .benefits-cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr );
+  gap: 2.5rem;
+}
+.benefits .benefits-card:nth-child(even){
+  background:#F5ECDD;
+}
+.benefits .benefits-card:nth-child(odd){
+  background:#F5F5F5;
+}
+.benefits .benefits-thumb{
+  height: 32rem;
+  width: 100%;
+}
+.benefits .benefits-image{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.benefits .benefits-content{
+  padding: 4rem;
+}
+.benefits .benefits-title{
+  font-family: var(--jakarta);
+  color: #000000;
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 1.2;
+  margin-bottom: 2.5rem;
+}

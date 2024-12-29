@@ -8,7 +8,7 @@
 .home .hero .col {
   width: 53rem;
 }
-.home .hero .title {
+.home .hero-title {
   font-family: var(--jakarta);
   color: #ffffff;
   font-weight: 400;
@@ -16,10 +16,10 @@
   line-height: 1.2;
   margin-bottom: 2rem;
 }
-.home .hero .title span {
+.home .hero-title span {
   font-weight: 700;
 }
-.home .hero .subtitle {
+.home .hero-subtitle {
   font-family: var(--jakarta);
   color: #ffffff;
   font-weight: 300;
@@ -27,10 +27,10 @@
   line-height: 1.6;
   margin-bottom: 3rem;
 }
-.home .hero .subtitle span {
+.home .hero-subtitle span {
   font-weight: 600;
 }
-.home .hero .box-buttons {
+.home .hero-buttons {
   display: flex;
   gap: 1.7rem;
 }
