@@ -52,7 +52,7 @@ body {
   line-height: 1.5;
   margin-bottom: 3rem;
 }
-.text strong{
+.text strong {
   font-weight: 700;
 }
 .btn {
@@ -83,58 +83,4 @@ body {
   border-color: #ffffff;
   color: #ffffff;
   background: transparent;
-}
-.testimonials {
-  padding: 8rem 0;
-}
-.testimonials .title-thin {
-  text-align: center;
-  margin-bottom: 1rem;
-}
-.testimonials .title {
-  text-align: center;
-  margin-bottom: 4rem;
-}
-.testimonials .card-testimonial{
-  padding: 3.5rem;
-}
-.testimonials .card-testimonial.card-testimonial-female{
-  background: #F5ECDD;
-}
-.testimonials .card-testimonial.card-testimonial-male{
-  background: #F5F5F5;
-}
-.testimonials .card-testimonial .testimonial .text{
-  margin-bottom: 0;
-}
-.testimonials .card-testimonial .testimonial .icon:nth-of-type(2){
-  margin-top: 0.5rem;
-  transform: rotate(180deg);
-}
-.testimonials .swiper-testimonials {
-  display: grid;
-  grid-template-columns: 6rem 1fr 6rem;
-  align-items: center;
-}
-.testimonials .swiper-testimonials .swiper {
-  width: 100%;
-}
-.testimonials .swiper-testimonials .button-next,
-.testimonials .swiper-testimonials .button-prev {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 6rem;
-  width: 6rem;
-}
-.testimonials .swiper-testimonials .button-next:hover,
-.testimonials .swiper-testimonials .button-prev:hover {
-  cursor: pointer;
-}
-.testimonials .swiper-testimonials .button-next .icon,
-.testimonials .swiper-testimonials .button-prev .icon {
-  width: 2rem;
-}
-.testimonials .swiper-testimonials .button-next .icon {
-  transform: rotate(180deg);
 }

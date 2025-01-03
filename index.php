@@ -251,7 +251,7 @@
                   </div>
                   <div class="person-data-card-testimonial">
                     <div class="thumb-card-testimonial">
-                      <img src="" alt="" class="image-thumb-card-testimonial">
+                      <img src="./img/depoimento.png" alt="" class="image-thumb-card-testimonial">
                     </div>
                     <div class="person-card-testimonial">
                       <h4 class="name-card-testimonial">Barbara Costa</h4>
@@ -261,7 +261,7 @@
                 </div>
               </div>
               <div class="swiper-slide">
-                <div class="card-testimonial card-testimonial-female">
+                <div class="card-testimonial card-testimonial-male">
                   <div class="testimonial">
                     <p class="text">
                       Comprei um par de <strong>óculos de sol femininos com haste de bambu</strong>, e estou apaixonada!
@@ -272,7 +272,7 @@
                   </div>
                   <div class="person-data-card-testimonial">
                     <div class="thumb-card-testimonial">
-                      <img src="" alt="" class="image-thumb-card-testimonial">
+                      <img src="./img/depoimento.png" alt="" class="image-thumb-card-testimonial">
                     </div>
                     <div class="person-card-testimonial">
                       <h4 class="name-card-testimonial">Barbara Costa</h4>
@@ -284,16 +284,14 @@
               <div class="swiper-slide">
                 <div class="card-testimonial card-testimonial-female">
                   <div class="testimonial">
-                    <img src="./img/quote.svg" alt="" class="icon">
                     <p class="text">
                       Comprei um par de <strong>óculos de sol femininos com haste de bambu</strong>, e estou apaixonada!
                       O acabamento é
                     </p>
-                    <img src="./img/quote.svg" alt="" class="icon">
                   </div>
                   <div class="person-data-card-testimonial">
                     <div class="thumb-card-testimonial">
-                      <img src="" alt="" class="image-thumb-card-testimonial">
+                      <img src="./img/depoimento.png" alt="" class="image-thumb-card-testimonial">
                     </div>
                     <div class="person-card-testimonial">
                       <h4 class="name-card-testimonial">Barbara Costa</h4>
@@ -303,13 +301,114 @@
                 </div>
               </div>
               <div class="swiper-slide">
-
+                <div class="card-testimonial card-testimonial-male">
+                  <div class="testimonial">
+                    <p class="text">
+                      Comprei um par de <strong>óculos de sol femininos com haste de bambu</strong>, e estou apaixonada!
+                      O acabamento é
+                    </p>
+                  </div>
+                  <div class="person-data-card-testimonial">
+                    <div class="thumb-card-testimonial">
+                      <img src="./img/depoimento.png" alt="" class="image-thumb-card-testimonial">
+                    </div>
+                    <div class="person-card-testimonial">
+                      <h4 class="name-card-testimonial">Barbara Costa</h4>
+                      <span class="date-card-testimonial">12/10/2024</span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div class="button-prev">
             <img src="./img/arrow.svg" alt="" class="icon">
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="seller-partner __seller-partner-container">
+    <div class="container">
+      <div class="row">
+        <div class="seller-partner-buttons">
+          <button class="btn btn-transparent __btn-seller">
+            Seja Revendedor
+          </button>
+          <button class="btn btn-transparent __btn-partner">
+            Seja Parceiro
+          </button>
+        </div>
+        <div class="seller-content __seller-content">
+          <h2 class="title">Juntos, podemos levar estilo e proteção para ainda mais pessoas!</h2>
+          <p class="text">
+            Seja um(a) revendedor(a) oficial da nossa marca e ofereça óculos de sol que combinam design, sofisticação e
+            qualidade. Vamos crescer juntos!
+          </p>
+          <ul class="seller-partner-list">
+            <li class="seller-partner-item">
+              <img src="./img/" alt="" class="seller-partner-icon">
+              <strong> Produtos exclusivos: </strong>
+              Acesso antecipado a coleções e designs exclusivos.
+            </li>
+            <li class="seller-partner-item">
+              <img src="./img/" alt="" class="seller-partner-icon">
+              <strong> Alta Lucratividade: </strong>
+              Margens atrativas para revenda.
+            </li>
+            <li class="seller-partner-item">
+              <img src="./img/" alt="" class="seller-partner-icon">
+              <strong> Marketing de Apoio: </strong>
+              Material promocional e suporte para alavancar suas vendas.
+            </li>
+            <li class="seller-partner-item">
+              <img src="./img/" alt="" class="seller-partner-icon">
+              <strong> Sustentabilidade em foco:</strong>
+              Produtos que conectam sua marca a valores eco-friendly.
+            </li>
+            <li class="seller-partner-item">
+              <img src="./img/" alt="" class="seller-partner-icon">
+              <strong> Suporte dedicado:</strong>
+              Atendimento exclusivo para revendedores
+            </li>
+          </ul>
+          <p class="text">
+            São +100 revendedores em todo o Brasil, pronto para fazer parte desse time de sucesso?
+          </p>
+          <button class="btn btn-white">Quero ser revendedor(a)</button>
+        </div>
+        <div class="partner-content __partner-content">
+          <h2 class="title">Enxergando novos horizontes</h2>
+          <p class="text">
+            Junte-se à nossa rede de empresas parceiras e ofereça estilo e proteção aos seus clientes!
+          </p>
+          <ul class="seller-partner-list">
+            <li class="seller-partner-item">
+              <img src="./img/" alt="" class="seller-partner-icon">
+              <strong> Produtos exclusivos:</strong>
+              Designs modernos e diferenciados que encantam os clientes.
+            </li>
+            <li class="seller-partner-item">
+              <img src="./img/" alt="" class="seller-partner-icon">
+              <strong> Alta Lucratividade: </strong>
+              Óculos com proteção UV máxima e materiais duráveis.
+            </li>
+            <li class="seller-partner-item">
+              <img src="./img/" alt="" class="seller-partner-icon">
+              <strong>Suporte ao parceiro: </strong>
+              Materiais promocionais, treinamento e atendimento dedicado.
+            </li>
+            <li class="seller-partner-item">
+              <img src="./img/" alt="" class="seller-partner-icon">
+              <strong>Margem atrativa:</strong>
+              Condições comerciais que potencializam o lucro do seu negócio.
+            </li>
+          </ul>
+          <p class="text">
+            São +70 empresas parceiras em todo o Brasil, faça parte você também e amplie suas vendas com uma marca que
+            une estilo, proteção e qualidade!
+          </p>
+          <button class="btn btn-white">Quero ser parceiro (a)</button>
         </div>
       </div>
     </div>
