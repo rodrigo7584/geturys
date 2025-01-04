@@ -84,3 +84,60 @@ body {
   color: #ffffff;
   background: transparent;
 }
+.seller-partner {
+  padding: 12rem 0;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.seller-partner .seller-partner-buttons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3.5rem;
+}
+.seller-partner.selected-seller [data-seller-partner='seller'],
+.seller-partner.selected-partner [data-seller-partner='partner'] {
+  background-color: #ffffff;
+  color: #000000;
+}
+.seller-partner.selected-seller {
+  background-image: url('../img/revendedor.png');
+}
+.seller-partner.selected-partner {
+  background-image: url('../img/parceiro.png');
+}
+.seller-partner .seller-partner-content {
+  width: 58rem;
+}
+.seller-partner .title {
+  color: #ffffff;
+  margin-bottom: 3rem;
+}
+.seller-partner .text {
+  color: #ffffff;
+}
+.seller-partner .seller-partner-list {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.seller-partner .seller-partner-item {
+  display: grid;
+  grid-template-columns: 2.9rem 1fr;
+  gap: 1.5rem;
+}
+.seller-partner .seller-partner-item .text {
+  margin-bottom: 0;
+}
+.seller-partner .seller-partner-container-icon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.seller-partner .seller-partner-icon {
+  max-width: 100%;
+  margin-top: 0.7rem;
+}

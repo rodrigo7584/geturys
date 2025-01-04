@@ -68,3 +68,12 @@ const swiperTestimonials = new Swiper('.swiper-testimonials .swiper', {
     prevEl: '.swiper-testimonials .button-prev'
   }
 })
+
+const sellerPartner = document.querySelector('.seller-partner')
+
+function initSellerPartner() {
+  if (sellerPartner) {
+    console.log(sellerPartner)
+  }
+}
+initSellerPartner()

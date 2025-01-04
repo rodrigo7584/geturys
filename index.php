@@ -328,18 +328,18 @@
       </div>
     </div>
   </section>
-  <section class="seller-partner __seller-partner-container">
+  <section class="seller-partner selected-seller">
     <div class="container">
       <div class="row">
         <div class="seller-partner-buttons">
-          <button class="btn btn-transparent __btn-seller">
+          <button class="btn btn-transparent" data-seller-partner="seller">
             Seja Revendedor
           </button>
-          <button class="btn btn-transparent __btn-partner">
+          <button class="btn btn-transparent" data-seller-partner="partner">
             Seja Parceiro
           </button>
         </div>
-        <div class="seller-content __seller-content">
+        <div class="seller-partner-content seller-content">
           <h2 class="title">Juntos, podemos levar estilo e proteção para ainda mais pessoas!</h2>
           <p class="text">
             Seja um(a) revendedor(a) oficial da nossa marca e ofereça óculos de sol que combinam design, sofisticação e
@@ -347,29 +347,43 @@
           </p>
           <ul class="seller-partner-list">
             <li class="seller-partner-item">
-              <img src="./img/" alt="" class="seller-partner-icon">
-              <strong> Produtos exclusivos: </strong>
-              Acesso antecipado a coleções e designs exclusivos.
+              <div class="seller-partner-container-icon">
+                <img src="./img/badge.svg" alt="" class="seller-partner-icon">
+              </div>
+              <p class="text"> <strong> Produtos exclusivos: </strong>
+                Acesso antecipado a coleções e designs exclusivos.
+              </p>
             </li>
             <li class="seller-partner-item">
-              <img src="./img/" alt="" class="seller-partner-icon">
-              <strong> Alta Lucratividade: </strong>
-              Margens atrativas para revenda.
+              <div class="seller-partner-container-icon">
+                <img src="./img/grow.svg" alt="" class="seller-partner-icon">
+              </div>
+              <p class="text"><strong> Alta Lucratividade: </strong>
+                Margens atrativas para revenda.</p>
             </li>
             <li class="seller-partner-item">
-              <img src="./img/" alt="" class="seller-partner-icon">
-              <strong> Marketing de Apoio: </strong>
-              Material promocional e suporte para alavancar suas vendas.
+              <div class="seller-partner-container-icon">
+                <img src="./img/bag-2.svg" alt="" class="seller-partner-icon">
+              </div>
+              <p class="text"> <strong> Marketing de Apoio: </strong>
+                Material promocional e suporte para alavancar suas vendas.
+              </p>
             </li>
             <li class="seller-partner-item">
-              <img src="./img/" alt="" class="seller-partner-icon">
-              <strong> Sustentabilidade em foco:</strong>
-              Produtos que conectam sua marca a valores eco-friendly.
+              <div class="seller-partner-container-icon">
+                <img src="./img/leaf.svg" alt="" class="seller-partner-icon">
+              </div>
+              <p class="text"> <strong> Sustentabilidade em foco:</strong>
+                Produtos que conectam sua marca a valores eco-friendly.
+              </p>
             </li>
             <li class="seller-partner-item">
-              <img src="./img/" alt="" class="seller-partner-icon">
-              <strong> Suporte dedicado:</strong>
-              Atendimento exclusivo para revendedores
+              <div class="seller-partner-container-icon">
+                <img src="./img/helpdesk.svg" alt="" class="seller-partner-icon">
+              </div>
+              <p class="text"><strong> Suporte dedicado:</strong>
+                Atendimento exclusivo para revendedores
+              </p>
             </li>
           </ul>
           <p class="text">
@@ -377,31 +391,43 @@
           </p>
           <button class="btn btn-white">Quero ser revendedor(a)</button>
         </div>
-        <div class="partner-content __partner-content">
+        <div class="seller-partner-content partner-content">
           <h2 class="title">Enxergando novos horizontes</h2>
           <p class="text">
             Junte-se à nossa rede de empresas parceiras e ofereça estilo e proteção aos seus clientes!
           </p>
           <ul class="seller-partner-list">
             <li class="seller-partner-item">
-              <img src="./img/" alt="" class="seller-partner-icon">
-              <strong> Produtos exclusivos:</strong>
-              Designs modernos e diferenciados que encantam os clientes.
+              <div class="seller-partner-container-icon">
+                <img src="./img/badge.svg" alt="" class="seller-partner-icon">
+              </div>
+              <p class="text"><strong> Produtos exclusivos:</strong>
+                Designs modernos e diferenciados que encantam os clientes.
+              </p>
             </li>
             <li class="seller-partner-item">
-              <img src="./img/" alt="" class="seller-partner-icon">
-              <strong> Alta Lucratividade: </strong>
-              Óculos com proteção UV máxima e materiais duráveis.
+              <div class="seller-partner-container-icon">
+                <img src="./img/grow.svg" alt="" class="seller-partner-icon">
+              </div>
+              <p class="text"> <strong> Alta Lucratividade: </strong>
+                Óculos com proteção UV máxima e materiais duráveis.
+              </p>
             </li>
             <li class="seller-partner-item">
-              <img src="./img/" alt="" class="seller-partner-icon">
-              <strong>Suporte ao parceiro: </strong>
-              Materiais promocionais, treinamento e atendimento dedicado.
+              <div class="seller-partner-container-icon">
+                <img src="./img/helpdesk.svg" alt="" class="seller-partner-icon">
+              </div>
+              <p class="text"> <strong>Suporte ao parceiro: </strong>
+                Materiais promocionais, treinamento e atendimento dedicado.
+              </p>
             </li>
             <li class="seller-partner-item">
-              <img src="./img/" alt="" class="seller-partner-icon">
-              <strong>Margem atrativa:</strong>
-              Condições comerciais que potencializam o lucro do seu negócio.
+              <div class="seller-partner-container-icon">
+                <img src="./img/graph-bar.svg" alt="" class="seller-partner-icon">
+              </div>
+              <p class="text"> <strong>Margem atrativa:</strong>
+                Condições comerciais que potencializam o lucro do seu negócio.
+              </p>
             </li>
           </ul>
           <p class="text">
