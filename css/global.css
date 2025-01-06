@@ -84,60 +84,94 @@ body {
   color: #ffffff;
   background: transparent;
 }
-.seller-partner {
-  padding: 12rem 0;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.newsletter-faq {
+  padding: 8rem 0;
 }
-.seller-partner .seller-partner-buttons {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  margin-bottom: 3.5rem;
+.newsletter-faq .row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25rem;
 }
-.seller-partner.selected-seller [data-seller-partner='seller'],
-.seller-partner.selected-partner [data-seller-partner='partner'] {
-  background-color: #ffffff;
-  color: #000000;
+.newsletter-faq .title {
+  font-size: 1.6rem;
+  margin-bottom: 0;
+  font-weight: 700;
 }
-.seller-partner.selected-seller {
-  background-image: url('../img/revendedor.png');
-}
-.seller-partner.selected-partner {
-  background-image: url('../img/parceiro.png');
-}
-.seller-partner .seller-partner-content {
-  width: 58rem;
-}
-.seller-partner .title {
-  color: #ffffff;
-  margin-bottom: 3rem;
-}
-.seller-partner .text {
-  color: #ffffff;
-}
-.seller-partner .seller-partner-list {
-  margin-bottom: 3rem;
+.newsletter-faq .col-newsletter {
   display: flex;
   flex-direction: column;
-  gap: 2.4rem;
+  gap: 2.5rem;
 }
-.seller-partner .seller-partner-item {
+.newsletter-faq .form-newsletter {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 0.1rem solid #000000;
+}
+.newsletter-faq .form-newsletter-input {
+  font-family: var(--jakarta);
+  font-weight: 400;
+  font-size: 1.6rem;
+  border: none;
+  width: 100%;
+}
+.newsletter-faq .form-newsletter-btn:hover {
+  cursor: pointer;
+}
+.newsletter-faq .terms {
+  font-family: var(--jakarta);
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.26;
+  color: #000000;
+}
+.newsletter-faq .social-list {
+  display: flex;
+  align-items: center;
+}
+.newsletter-faq .social-list-link {
+  padding: 1rem;
+}
+.newsletter-faq .accordion {
+  position: relative;
+  z-index: 15;
+  padding: 2rem 0 1rem 0;
+}
+.newsletter-faq .accordion .question {
   display: grid;
-  grid-template-columns: 2.9rem 1fr;
-  gap: 1.5rem;
+  grid-template-columns: 1fr 3rem;
+  align-items: center;
+  gap: 1rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  border-bottom: 0.1rem solid black;
+  padding-bottom: 1rem;
 }
-.seller-partner .seller-partner-item .text {
+.accordion .question img {
+  height: 2rem;
+  width: 2rem;
+  transition: 0.3s all ease-in-out;
+}
+.accordion.open .question img {
+  transform: rotate(45deg);
+}
+.accordion .question:hover {
+  cursor: pointer;
+}
+.accordion .answer .content {
+  padding: 2rem 0;
+}
+.accordion .answer p {
+  color: var(--second-1);
+  font-size: 1.8rem;
+  font-weight: 400;
   margin-bottom: 0;
 }
-.seller-partner .seller-partner-container-icon {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+.accordion .answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
 }
-.seller-partner .seller-partner-icon {
-  max-width: 100%;
-  margin-top: 0.7rem;
+.accordion .answer.open {
+  max-height: 800px;
 }

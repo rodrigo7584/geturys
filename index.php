@@ -328,113 +328,65 @@
       </div>
     </div>
   </section>
-  <section class="seller-partner selected-seller">
+  <?php include './src/seller-partner.php'?>
+  <section class="newsletter-faq">
     <div class="container">
       <div class="row">
-        <div class="seller-partner-buttons">
-          <button class="btn btn-transparent" data-seller-partner="seller">
-            Seja Revendedor
-          </button>
-          <button class="btn btn-transparent" data-seller-partner="partner">
-            Seja Parceiro
-          </button>
-        </div>
-        <div class="seller-partner-content seller-content">
-          <h2 class="title">Juntos, podemos levar estilo e proteção para ainda mais pessoas!</h2>
-          <p class="text">
-            Seja um(a) revendedor(a) oficial da nossa marca e ofereça óculos de sol que combinam design, sofisticação e
-            qualidade. Vamos crescer juntos!
-          </p>
-          <ul class="seller-partner-list">
-            <li class="seller-partner-item">
-              <div class="seller-partner-container-icon">
-                <img src="./img/badge.svg" alt="" class="seller-partner-icon">
-              </div>
-              <p class="text"> <strong> Produtos exclusivos: </strong>
-                Acesso antecipado a coleções e designs exclusivos.
-              </p>
+        <div class="col col-newsletter">
+          <h2 class="title">
+            ASSINE NOSSA NEWSLETTER
+          </h2>
+          <form action="#" class="form-newsletter">
+            <input type="email" placeholder="E-mail*" class="form-newsletter-input">
+            <button type="submit" class="form-newsletter-btn">
+              <img src="./img/arrow-3.svg" alt="" class="icon">
+            </button>
+          </form>
+          <span class="terms">
+            Ao clicar em "Assinar", você confirma que leu e entendeu nossa Política de Privacidade e que deseja
+            receber a Newsletter e outras comunicação de marketing, conforme nela, conforme nela estabelecido
+          </span>
+          <ul class="social-list">
+            <li class="social-list-item">
+              <a href="#" class="social-list-link">
+                <img src="./img/facebook.svg" alt="" class="icon">
+              </a>
             </li>
-            <li class="seller-partner-item">
-              <div class="seller-partner-container-icon">
-                <img src="./img/grow.svg" alt="" class="seller-partner-icon">
-              </div>
-              <p class="text"><strong> Alta Lucratividade: </strong>
-                Margens atrativas para revenda.</p>
+            <li class="social-list-item">
+              <a href="#" class="social-list-link">
+                <img src="./img/instagram.svg" alt="" class="icon">
+              </a>
             </li>
-            <li class="seller-partner-item">
-              <div class="seller-partner-container-icon">
-                <img src="./img/bag-2.svg" alt="" class="seller-partner-icon">
-              </div>
-              <p class="text"> <strong> Marketing de Apoio: </strong>
-                Material promocional e suporte para alavancar suas vendas.
-              </p>
+            <li class="social-list-item">
+              <a href="#" class="social-list-link">
+                <img src="./img/youtube.svg" alt="" class="icon">
+              </a>
             </li>
-            <li class="seller-partner-item">
-              <div class="seller-partner-container-icon">
-                <img src="./img/leaf.svg" alt="" class="seller-partner-icon">
-              </div>
-              <p class="text"> <strong> Sustentabilidade em foco:</strong>
-                Produtos que conectam sua marca a valores eco-friendly.
-              </p>
-            </li>
-            <li class="seller-partner-item">
-              <div class="seller-partner-container-icon">
-                <img src="./img/helpdesk.svg" alt="" class="seller-partner-icon">
-              </div>
-              <p class="text"><strong> Suporte dedicado:</strong>
-                Atendimento exclusivo para revendedores
-              </p>
+            <li class="social-list-item">
+              <a href="#" class="social-list-link">
+                <img src="./img/tiktok.svg" alt="" class="icon">
+              </a>
             </li>
           </ul>
-          <p class="text">
-            São +100 revendedores em todo o Brasil, pronto para fazer parte desse time de sucesso?
-          </p>
-          <button class="btn btn-white">Quero ser revendedor(a)</button>
         </div>
-        <div class="seller-partner-content partner-content">
-          <h2 class="title">Enxergando novos horizontes</h2>
-          <p class="text">
-            Junte-se à nossa rede de empresas parceiras e ofereça estilo e proteção aos seus clientes!
-          </p>
-          <ul class="seller-partner-list">
-            <li class="seller-partner-item">
-              <div class="seller-partner-container-icon">
-                <img src="./img/badge.svg" alt="" class="seller-partner-icon">
-              </div>
-              <p class="text"><strong> Produtos exclusivos:</strong>
-                Designs modernos e diferenciados que encantam os clientes.
+        <div class="col col-faq">
+          <div class="accordion">
+            <div class="question">
+              <p class="title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt
               </p>
-            </li>
-            <li class="seller-partner-item">
-              <div class="seller-partner-container-icon">
-                <img src="./img/grow.svg" alt="" class="seller-partner-icon">
+              <img src="./img/arrow-2.svg" alt="" />
+            </div>
+            <div class="answer">
+              <div class="content">
+                <p class="text">
+                  Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla.
+                  Orci, dictumst nec aliquet id ullamcorper venenatis.
+                </p>
               </div>
-              <p class="text"> <strong> Alta Lucratividade: </strong>
-                Óculos com proteção UV máxima e materiais duráveis.
-              </p>
-            </li>
-            <li class="seller-partner-item">
-              <div class="seller-partner-container-icon">
-                <img src="./img/helpdesk.svg" alt="" class="seller-partner-icon">
-              </div>
-              <p class="text"> <strong>Suporte ao parceiro: </strong>
-                Materiais promocionais, treinamento e atendimento dedicado.
-              </p>
-            </li>
-            <li class="seller-partner-item">
-              <div class="seller-partner-container-icon">
-                <img src="./img/graph-bar.svg" alt="" class="seller-partner-icon">
-              </div>
-              <p class="text"> <strong>Margem atrativa:</strong>
-                Condições comerciais que potencializam o lucro do seu negócio.
-              </p>
-            </li>
-          </ul>
-          <p class="text">
-            São +70 empresas parceiras em todo o Brasil, faça parte você também e amplie suas vendas com uma marca que
-            une estilo, proteção e qualidade!
-          </p>
-          <button class="btn btn-white">Quero ser parceiro (a)</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

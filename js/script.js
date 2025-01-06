@@ -69,11 +69,42 @@ const swiperTestimonials = new Swiper('.swiper-testimonials .swiper', {
   }
 })
 
-const sellerPartner = document.querySelector('.seller-partner')
+const sellerPartnerSection = document.querySelector('[data-seller-partner-selected]')
 
 function initSellerPartner() {
-  if (sellerPartner) {
-    console.log(sellerPartner)
+  if (sellerPartnerSection) {
+    const btns = sellerPartnerSection.querySelectorAll('[data-seller-partner]')
+    btns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const selectedValue = btn.getAttribute('data-seller-partner')
+        sellerPartnerSection.setAttribute('data-seller-partner-selected', selectedValue)
+      })
+    })
   }
 }
 initSellerPartner()
+
+/*ACCORDION */
+const accordion = document.querySelectorAll('.accordion')
+function initAccordion() {
+  if (accordion) {
+    accordion.forEach(item => {
+      const question = item.querySelector('.question')
+      const answer = item.querySelector('.answer')
+
+      answer.style.maxHeight = 0
+
+      question.addEventListener('click', () => {
+        if (item.classList.contains('open')) {
+          answer.style.maxHeight = 0
+          item.classList.remove('open')
+        } else {
+          answer.style.maxHeight = answer.querySelector('.content').scrollHeight + 'px'
+          item.classList.add('open')
+        }
+      })
+    })
+  }
+}
+initAccordion()
+/*END ACCORDION */
