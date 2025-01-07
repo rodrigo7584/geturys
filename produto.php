@@ -15,16 +15,16 @@
                     <img src="./img/produto-1.png" />
                   </div>
                   <div class="swiper-slide">
-                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                    <img src="./img/produto-1.png" />
                   </div>
                   <div class="swiper-slide">
-                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                    <img src="./img/produto-1.png" />
                   </div>
                   <div class="swiper-slide">
-                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                    <img src="./img/produto-1.png" />
                   </div>
                   <div class="swiper-slide">
-                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                    <img src="./img/produto-1.png" />
                   </div>
                 </div>
               </div>
@@ -39,16 +39,16 @@
                     <img src="./img/produto-1.png" />
                   </div>
                   <div class="swiper-slide">
-                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                    <img src="./img/produto-1.png" />
                   </div>
                   <div class="swiper-slide">
-                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                    <img src="./img/produto-1.png" />
                   </div>
                   <div class="swiper-slide">
-                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                    <img src="./img/produto-1.png" />
                   </div>
                   <div class="swiper-slide">
-                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                    <img src="./img/produto-1.png" />
                   </div>
                 </div>
               </div>
