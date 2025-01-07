@@ -11,7 +11,10 @@
 @import url('./header.css');
 @import url('./footer.css');
 @import url('./product-card.css');
+@import url('./our-collection.css');
+@import url('./testimonials.css');
 @import url('./seller-partner.css');
+@import url('./newsletter-faq.css');
 
 /*PEGES CSS*/
 @import url('./home-hero.css');
@@ -19,5 +22,5 @@
 @import url('./home-who-we-are.css');
 @import url('./home-by-style.css');
 @import url('./home-benefits.css');
-@import url('./home-our-collection.css');
-@import url('./home-testimonials.css');
+
+

@@ -31,16 +31,16 @@
         <div class="swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <?php include './src/card.php'?>
+              <?php include './src/product-card-slide.php'?>
             </div>
             <div class="swiper-slide">
-              <?php include './src/card.php'?>
+              <?php include './src/product-card-slide.php'?>
             </div>
             <div class="swiper-slide">
-              <?php include './src/card.php'?>
+              <?php include './src/product-card-slide.php'?>
             </div>
             <div class="swiper-slide">
-              <?php include './src/card.php'?>
+              <?php include './src/product-card-slide.php'?>
             </div>
           </div>
         </div>
@@ -188,208 +188,9 @@
       </div>
     </div>
   </section>
-  <section class="our-collection">
-    <div class="container">
-      <div class="row">
-        <h2 class="title-thin">Navegue por Estilo</h2>
-        <h3 class="title">Estilos exclusivos para todos</h3>
-        <div class="cards-our-collection">
-          <a href="#" class="card-our-collection card-female">
-            <h4 class="card-title-our-collection">
-              Feminino
-            </h4>
-          </a>
-          <a href="#" class="card-our-collection card-bamboo">
-            <h4 class="card-title-our-collection">
-              Hastes de bambu
-            </h4>
-          </a>
-          <a href="#" class="card-our-collection card-minimalist">
-            <h4 class="card-title-our-collection">
-              Minimalista
-            </h4>
-          </a>
-          <a href="#" class="card-our-collection card-polarized">
-            <h4 class="card-title-our-collection">
-              Polarizado
-            </h4>
-          </a>
-          <a href="#" class="card-our-collection card-fashionista">
-            <h4 class="card-title-our-collection">
-              Fashionista
-            </h4>
-          </a>
-          <a href="#" class="card-our-collection card-male">
-            <h4 class="card-title-our-collection">
-              Masculino
-            </h4>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="testimonials">
-    <div class="container">
-      <div class="row">
-        <h2 class="title-thin">depoimentos</h2>
-        <h3 class="title">O que dizem nossos clientes</h3>
-        <div class="swiper-testimonials">
-          <div class="button-next">
-            <img src="./img/arrow.svg" alt="" class="icon">
-          </div>
-          <div class="swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="card-testimonial card-testimonial-female">
-                  <div class="testimonial">
-                    <p class="text">
-                      Comprei um par de <strong>óculos de sol femininos com haste de bambu</strong>, e estou apaixonada!
-                      O acabamento é
-                      perfeito, e o material sustentável me deixou muito satisfeita. Sem falar que as lentes polarizadas
-                      fazem toda a diferença nos dias de sol intenso.<strong> Recomendo de olhos fechados!</strong>
-                    </p>
-                  </div>
-                  <div class="person-data-card-testimonial">
-                    <div class="thumb-card-testimonial">
-                      <img src="./img/depoimento.png" alt="" class="image-thumb-card-testimonial">
-                    </div>
-                    <div class="person-card-testimonial">
-                      <h4 class="name-card-testimonial">Barbara Costa</h4>
-                      <span class="date-card-testimonial">12/10/2024</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="card-testimonial card-testimonial-male">
-                  <div class="testimonial">
-                    <p class="text">
-                      Comprei um par de <strong>óculos de sol femininos com haste de bambu</strong>, e estou apaixonada!
-                      O acabamento é
-                      perfeito, e o material sustentável me deixou muito satisfeita. Sem falar que as lentes polarizadas
-                      fazem toda a diferença nos dias de sol intenso.<strong> Recomendo de olhos fechados!</strong>
-                    </p>
-                  </div>
-                  <div class="person-data-card-testimonial">
-                    <div class="thumb-card-testimonial">
-                      <img src="./img/depoimento.png" alt="" class="image-thumb-card-testimonial">
-                    </div>
-                    <div class="person-card-testimonial">
-                      <h4 class="name-card-testimonial">Barbara Costa</h4>
-                      <span class="date-card-testimonial">12/10/2024</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="card-testimonial card-testimonial-female">
-                  <div class="testimonial">
-                    <p class="text">
-                      Comprei um par de <strong>óculos de sol femininos com haste de bambu</strong>, e estou apaixonada!
-                      O acabamento é
-                    </p>
-                  </div>
-                  <div class="person-data-card-testimonial">
-                    <div class="thumb-card-testimonial">
-                      <img src="./img/depoimento.png" alt="" class="image-thumb-card-testimonial">
-                    </div>
-                    <div class="person-card-testimonial">
-                      <h4 class="name-card-testimonial">Barbara Costa</h4>
-                      <span class="date-card-testimonial">12/10/2024</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="card-testimonial card-testimonial-male">
-                  <div class="testimonial">
-                    <p class="text">
-                      Comprei um par de <strong>óculos de sol femininos com haste de bambu</strong>, e estou apaixonada!
-                      O acabamento é
-                    </p>
-                  </div>
-                  <div class="person-data-card-testimonial">
-                    <div class="thumb-card-testimonial">
-                      <img src="./img/depoimento.png" alt="" class="image-thumb-card-testimonial">
-                    </div>
-                    <div class="person-card-testimonial">
-                      <h4 class="name-card-testimonial">Barbara Costa</h4>
-                      <span class="date-card-testimonial">12/10/2024</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="button-prev">
-            <img src="./img/arrow.svg" alt="" class="icon">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <?php include './src/our-collection.php'?>
+  <?php include './src/testimonials.php'?>
   <?php include './src/seller-partner.php'?>
-  <section class="newsletter-faq">
-    <div class="container">
-      <div class="row">
-        <div class="col col-newsletter">
-          <h2 class="title">
-            ASSINE NOSSA NEWSLETTER
-          </h2>
-          <form action="#" class="form-newsletter">
-            <input type="email" placeholder="E-mail*" class="form-newsletter-input">
-            <button type="submit" class="form-newsletter-btn">
-              <img src="./img/arrow-3.svg" alt="" class="icon">
-            </button>
-          </form>
-          <span class="terms">
-            Ao clicar em "Assinar", você confirma que leu e entendeu nossa Política de Privacidade e que deseja
-            receber a Newsletter e outras comunicação de marketing, conforme nela, conforme nela estabelecido
-          </span>
-          <ul class="social-list">
-            <li class="social-list-item">
-              <a href="#" class="social-list-link">
-                <img src="./img/facebook.svg" alt="" class="icon">
-              </a>
-            </li>
-            <li class="social-list-item">
-              <a href="#" class="social-list-link">
-                <img src="./img/instagram.svg" alt="" class="icon">
-              </a>
-            </li>
-            <li class="social-list-item">
-              <a href="#" class="social-list-link">
-                <img src="./img/youtube.svg" alt="" class="icon">
-              </a>
-            </li>
-            <li class="social-list-item">
-              <a href="#" class="social-list-link">
-                <img src="./img/tiktok.svg" alt="" class="icon">
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="col col-faq">
-          <div class="accordion">
-            <div class="question">
-              <p class="title">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt
-              </p>
-              <img src="./img/arrow-2.svg" alt="" />
-            </div>
-            <div class="answer">
-              <div class="content">
-                <p class="text">
-                  Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla.
-                  Orci, dictumst nec aliquet id ullamcorper venenatis.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <?php include './src/newsletter-faq.php'?>
 </main>
 <?php include './src/foot.php'?>

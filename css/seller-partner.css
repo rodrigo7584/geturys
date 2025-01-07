@@ -72,3 +72,152 @@
   max-width: 100%;
   margin-top: 0.7rem;
 }
+/*
+modals css
+*/
+
+.modal-seller .modal-seller-container{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  min-height: 80vh;
+  align-items: center;
+  position: relative;
+}
+.modal-seller .col-image{
+  height: 100%;
+  width: 100%;
+  background: url('../img/contato.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.modal-seller .col-content{
+  padding: 5rem;
+}
+.modal-seller .col-content .modal-close{
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.modal-seller .title{
+  margin-bottom: 1rem;
+}
+.modal-seller .form-modal{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.modal-seller .form-modal-label{
+  font-family: var(--jakarta);
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #000000;
+}
+.modal-seller .form-modal-input{
+  font-family: var(--jakarta);
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #000000;
+  padding: 1.6rem;
+  border-radius: 1rem;
+  border: 0.1rem solid #000000;
+}
+.modal-seller .form-modal .btn{
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.modal-partner .modal-partner-container{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  min-height: 80vh;
+  align-items: center;
+  position: relative;
+}
+.modal-partner .col-image{
+  height: 100%;
+  width: 100%;
+  background: url('../img/contato.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.modal-partner .col-content{
+  padding: 5rem;
+}
+.modal-partner .col-content .modal-close{
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.modal-partner .title{
+  margin-bottom: 1rem;
+}
+.modal-partner .form-modal{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.modal-partner .form-modal-label{
+  font-family: var(--jakarta);
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #000000;
+}
+.modal-partner .form-modal-input{
+  font-family: var(--jakarta);
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #000000;
+  padding: 1.6rem;
+  border-radius: 1rem;
+  border: 0.1rem solid #000000;
+}
+.modal-partner .form-modal .btn{
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.modal-thanks .modal-thanks-container{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  min-height: 80vh;
+  align-items: center;
+  position: relative;
+}
+.modal-thanks .col-image{
+  height: 100%;
+  width: 100%;
+  background: url('../img/contato.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.modal-thanks .col-content{
+  padding:5rem;
+}
+.modal-thanks .col-content .modal-close{
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.modal-thanks .title{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.modal-thanks .text{
+  text-align: center;
+}
+.modal-thanks .btn{
+  text-align: center;
+  width: 100%;
+}

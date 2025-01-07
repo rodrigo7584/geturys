@@ -1,20 +1,18 @@
+/*
+RESOLUTION
+*/
 window.addEventListener('load', function () {
-  // Cria o container
   const infoContainer = document.createElement('div')
   infoContainer.id = 'resolution-container'
 
-  // Cria os elementos de texto
   const resolutionElement = document.createElement('p')
   const containerSizeElement = document.createElement('p')
 
-  // Função para atualizar os valores
   function updateInfo() {
-    // Obtém a largura e altura da tela
     const width = window.innerWidth
     const height = window.innerHeight
     resolutionElement.textContent = `TW:${width}px`
 
-    // Obtém o tamanho do primeiro elemento com a classe .container
     const container = document.querySelector('.container')
     if (container) {
       const containerWidth = container.offsetWidth
@@ -24,21 +22,21 @@ window.addEventListener('load', function () {
       containerSizeElement.textContent = 'Container não encontrado.'
     }
   }
-
-  // Atualiza ao carregar
   updateInfo()
 
-  // Anexa os elementos no container
   infoContainer.appendChild(resolutionElement)
   infoContainer.appendChild(containerSizeElement)
 
-  // Insere o container após a tag body
   document.body.insertAdjacentElement('afterbegin', infoContainer)
-
-  // Atualiza os valores quando a janela for redimensionada
   window.addEventListener('resize', updateInfo)
 })
+/*
+END RESOLUTION
+*/
 
+/*
+SWIPERS
+*/
 const swiperNewCollection = new Swiper('.swiper-new-collection .swiper', {
   loop: true,
   slidesPerView: 3,
@@ -68,7 +66,13 @@ const swiperTestimonials = new Swiper('.swiper-testimonials .swiper', {
     prevEl: '.swiper-testimonials .button-prev'
   }
 })
+/*
+END SWIPERS
+*/
 
+/*
+SELLER PARTNER SECTION CONTROL
+*/
 const sellerPartnerSection = document.querySelector('[data-seller-partner-selected]')
 
 function initSellerPartner() {
@@ -83,8 +87,13 @@ function initSellerPartner() {
   }
 }
 initSellerPartner()
+/*
+END SELLER PARTNER SECTION CONTROL
+*/
 
-/*ACCORDION */
+/*
+ACCORDION 
+*/
 const accordion = document.querySelectorAll('.accordion')
 function initAccordion() {
   if (accordion) {
@@ -107,4 +116,78 @@ function initAccordion() {
   }
 }
 initAccordion()
-/*END ACCORDION */
+/*
+END ACCORDION 
+*/
+
+/* 
+MODAL 
+*/
+document.addEventListener("DOMContentLoaded", function() {
+  const openButtons = document.querySelectorAll('[data-btn-modal]');
+  const closeButtons = document.querySelectorAll('[data-close-modal]');
+  const modals = document.querySelectorAll('dialog');
+
+  openButtons.forEach(button => {
+      button.addEventListener("click", () => {
+          const modalName = button.getAttribute('data-btn-modal');
+          const targetModal = document.querySelector(`dialog[data-modal="${modalName}"]`);
+
+          modals.forEach(modal => {
+              if (modal.open) {
+                  modal.close();
+              }
+          });
+
+          if (targetModal) {
+              targetModal.showModal();
+          }
+      });
+  });
+
+  closeButtons.forEach(button => {
+      button.addEventListener("click", () => {
+          const modal = button.closest('dialog');
+          if (modal) {
+              modal.close();
+          }
+      });
+  });
+
+  modals.forEach(dialog => {
+      dialog.addEventListener("click", e => {
+          const dialogDimensions = dialog.getBoundingClientRect();
+          if (
+              e.clientX < dialogDimensions.left ||
+              e.clientX > dialogDimensions.right ||
+              e.clientY < dialogDimensions.top ||
+              e.clientY > dialogDimensions.bottom
+          ) {
+              dialog.close();
+          }
+      });
+  });
+});
+/*
+END MODAL 
+*/
+
+
+var swiperProductDetailsThumbs = new Swiper(".swiper-product-details .swiper-thumbs .swiper", {
+  spaceBetween: 15,
+  slidesPerView: 4,
+  freeMode: true,
+  direction: "vertical",
+  watchSlidesProgress: true,
+});
+
+var swiperProductDetailsPhotos = new Swiper(".swiper-product-details .swiper-photos .swiper", {
+  // allowTouchMove: false,
+  thumbs: {
+    swiper: swiperProductDetailsThumbs,
+  } ,
+  navigation: {
+    nextEl: ".swiper-product-details .swiper-thumbs .button-next",
+    prevEl: ".swiper-product-details .swiper-thumbs .button-prev",
+  }
+});
