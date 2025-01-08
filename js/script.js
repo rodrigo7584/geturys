@@ -187,7 +187,7 @@ var swiperProductDetailsPhotos = new Swiper(".swiper-product-details .swiper-pho
     swiper: swiperProductDetailsThumbs,
   } ,
   navigation: {
-    nextEl: ".swiper-product-details .swiper-thumbs .button-next",
-    prevEl: ".swiper-product-details .swiper-thumbs .button-prev",
+    nextEl: ".swiper-product-details .swiper-thumbs .button-prev",
+    prevEl: ".swiper-product-details .swiper-thumbs .button-next",
   }
 });
