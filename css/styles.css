@@ -10,17 +10,18 @@
 /*SRC PARTS CSS*/
 @import url('./header.css');
 @import url('./footer.css');
-@import url('./product-card.css');
+@import url('./product-card-slide.css');
 @import url('./our-collection.css');
 @import url('./testimonials.css');
 @import url('./seller-partner.css');
 @import url('./newsletter-faq.css');
 
-/*PEGES CSS*/
+/*PAGES CSS*/
 @import url('./home-hero.css');
 @import url('./home-new-collection.css');
 @import url('./home-who-we-are.css');
 @import url('./home-by-style.css');
 @import url('./home-benefits.css');
 
-
+@import url('./product-product-details.css');
+@import url('./product-product-features.css');

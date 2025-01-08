@@ -144,5 +144,84 @@
         </div>
       </div>
   </section>
+  <section class="product-features">
+    <div class="container">
+      <div class="row">
+        <span class="product-features-title">Caracteristicas</span>
+        <div class="table">
+          <div class="table-item">
+            <span class="table-feature">Cor do óculos</span>
+            <span class="table-description">Preto</span>
+          </div>
+          <div class="table-item">
+            <span class="table-feature">Material do óculos</span>
+            <span class="table-description">Bambu</span>
+          </div>
+          <div class="table-item">
+            <span class="table-feature">Gênero</span>
+            <span class="table-description">Masculino</span>
+          </div>
+          <div class="table-item">
+            <span class="table-feature">Estilo</span>
+            <span class="table-description">Básico</span>
+          </div>
+          <div class="table-item">
+            <span class="table-feature">Onde usar </span>
+            <span class="table-description">Praia, passeios - cotidiano</span>
+          </div>
+          <div class="table-item">
+            <span class="table-feature">Temporada</span>
+            <span class="table-description">Verão</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="discover">
+    <div class="container">
+      <div class="row">
+        <h2 class="title-medium">Descubra outros produtos da Geturys</h2>
+        <div class="cards">
+          <div class="product-card-big-thumb">
+
+            <div class="thumb">
+              <img src="./img/mais-produtos-1.png" alt="" class="photo">
+            </div>
+
+            <h3 class="product-title">Óculos De Sol Geturys Masculino</h3>
+
+            <div class="score">
+              <div class="stars">
+                <img src="./img/star-2.svg" alt="" class="icon">
+                <img src="./img/star-2.svg" alt="" class="icon">
+                <img src="./img/star-2.svg" alt="" class="icon">
+                <img src="./img/star-2.svg" alt="" class="icon">
+                <img src="./img/star-2.svg" alt="" class="icon">
+              </div>
+              <span class="number">(5.0)</span>
+            </div>
+
+            <div class="prices">
+              <div class="method-1">
+                <span class="price">
+                  R$ 149,00
+                </span>
+                <span class="description">
+                  no PIX
+                </span>
+              </div>
+              <span class="method-2">
+                no cartão em até -<span class="installments"> 6x </span>
+                de -
+                <span class="installment-price">R$24,84</span>
+                sem juros
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 <?php include './src/foot.php'?>

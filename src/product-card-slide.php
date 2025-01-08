@@ -1,4 +1,4 @@
-<div class="product-card">
+<div class="product-card-slide">
   <button class="btn-like">
     <img src="./img/heart-2.svg" alt="" class="icon" />
   </button>
