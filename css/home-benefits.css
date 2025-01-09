@@ -1,33 +1,33 @@
-.benefits{
+.home .benefits {
   padding: 4rem 0;
 }
-.benefits .title{
+.home .benefits .title {
   margin-bottom: 4rem;
 }
-.benefits .benefits-cards{
+.home .benefits .benefits-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr );
+  grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
 }
-.benefits .benefits-card:nth-child(even){
-  background:#F5ECDD;
+.home .benefits .benefits-card:nth-child(even) {
+  background: #f5ecdd;
 }
-.benefits .benefits-card:nth-child(odd){
-  background:#F5F5F5;
+.home .benefits .benefits-card:nth-child(odd) {
+  background: #f5f5f5;
 }
-.benefits .benefits-thumb{
+.home .benefits .benefits-thumb {
   height: 32rem;
   width: 100%;
 }
-.benefits .benefits-image{
+.home .benefits .benefits-image {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-.benefits .benefits-content{
+.home .benefits .benefits-content {
   padding: 4rem;
 }
-.benefits .benefits-title{
+.home .benefits .benefits-title {
   font-family: var(--jakarta);
   color: #000000;
   font-weight: 500;

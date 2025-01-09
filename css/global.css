@@ -36,6 +36,7 @@ button:hover {
   cursor: pointer;
 }
 .title {
+  position: relative;
   font-family: var(--jakarta);
   color: #000000;
   font-weight: 600;
@@ -43,6 +44,7 @@ button:hover {
   line-height: 1.2;
 }
 .title-thin {
+  position: relative;
   font-family: var(--jakarta);
   color: #000000;
   text-transform: uppercase;
@@ -59,8 +61,8 @@ button:hover {
   line-height: 1.3;
   font-weight: 600;
 }
-.title-detail { 
-   padding-bottom: 4rem;
+.title-detail {
+  padding-bottom: 4rem;
 }
 .title-detail::before {
   content: '';
@@ -123,10 +125,10 @@ button:hover {
 [data-modal]::backdrop {
   background: rgba(0, 0, 0, 0.5);
 }
-.review{
+.review {
   padding: 8rem 0;
 }
-.review .review-top{
+.review .review-top {
   border-radius: 2.5rem;
   -webkit-box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
@@ -134,18 +136,18 @@ button:hover {
   overflow: hidden;
   margin-bottom: 8rem;
 }
-.review .review-top .review-header{
+.review .review-top .review-header {
   padding: 2.5rem;
   background: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.review .review-top .review-header .btn-review{
+.review .review-top .review-header .btn-review {
   display: flex;
   align-items: center;
   gap: 1rem;
-  background-color: #0071DB;
+  background-color: #0071db;
   border-radius: 1rem;
   padding: 1.3rem 2rem;
   font-family: var(--jakarta);
@@ -153,20 +155,20 @@ button:hover {
   font-size: 1.6rem;
   color: #ffffff;
 }
-.review .review-top .review-content{
+.review .review-top .review-content {
   padding: 2.5rem;
-  background-color: #F6F7F8;
+  background-color: #f6f7f8;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
 }
-.review .review-top .review-content .total-score{
+.review .review-top .review-content .total-score {
   background: #ffffff;
-  border-radius:1rem;
+  border-radius: 1rem;
   padding: 5rem;
   height: 100%;
 }
-.review .review-top .review-content .total-score .value{
+.review .review-top .review-content .total-score .value {
   font-family: var(--jakarta);
   font-weight: 500;
   color: #000000;
@@ -174,7 +176,7 @@ button:hover {
   margin-bottom: 1rem;
   display: block;
 }
-.review .review-top .review-content .total-score .quantity{
+.review .review-top .review-content .total-score .quantity {
   font-family: var(--jakarta);
   font-weight: 400;
   color: #808080;
@@ -190,65 +192,65 @@ button:hover {
 .review .review-top .review-content .total-score .quantity .stars .icon {
   width: 1.8rem;
 }
-.review .review-top .review-content .score-filter{
+.review .review-top .review-content .score-filter {
   background: #ffffff;
-  border-radius:1rem;
+  border-radius: 1rem;
   padding: 3rem;
   height: 100%;
 }
-.review .review-top .review-content .score-filter .score-filter-title{
+.review .review-top .review-content .score-filter .score-filter-title {
   font-family: var(--jakarta);
   font-weight: 500;
   color: #000000;
   font-size: 1.8rem;
   margin-bottom: 2rem;
 }
-.review .review-top .review-content .score-filter .buttons{
+.review .review-top .review-content .score-filter .buttons {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
-.review .review-top .review-content .score-filter .score-filter-button{
+.review .review-top .review-content .score-filter .score-filter-button {
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
   gap: 1rem;
 }
-.review .review-top .review-content .score-filter .score-filter-button .number{ 
+.review .review-top .review-content .score-filter .score-filter-button .number {
   font-family: var(--jakarta);
   font-weight: 400;
   color: #808080;
   font-size: 1.4rem;
 }
-.review .review-top .review-content .score-filter .score-filter-button .bar{ 
+.review .review-top .review-content .score-filter .score-filter-button .bar {
   position: relative;
   border-radius: 0.5rem;
   height: 0.7rem;
   width: 100%;
-  background-color: #E8EAED;
+  background-color: #e8eaed;
   overflow: hidden;
 }
-.review .review-top .review-content .score-filter .score-filter-button .bar .fill{
+.review .review-top .review-content .score-filter .score-filter-button .bar .fill {
   position: absolute;
   width: 8%;
-  background: #FBBD23;
+  background: #fbbd23;
   height: 100%;
   border-radius: 0.5rem;
-} 
-.review .review-top .review-content .evaluation-filter{
+}
+.review .review-top .review-content .evaluation-filter {
   background: #ffffff;
-  border-radius:1rem;
+  border-radius: 1rem;
   padding: 3rem;
   height: 100%;
 }
-.review .review-top .review-content .evaluation-filter .evaluation-filter-title{
+.review .review-top .review-content .evaluation-filter .evaluation-filter-title {
   font-family: var(--jakarta);
   font-weight: 500;
   color: #000000;
   font-size: 1.8rem;
   margin-bottom: 2rem;
 }
-.review .review-top .review-content .evaluation-filter .evaluation-filter-button{
+.review .review-top .review-content .evaluation-filter .evaluation-filter-button {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -261,39 +263,39 @@ button:hover {
   color: #808080;
   font-size: 1.4rem;
 }
-.review .evaluations{
+.review .evaluations {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-.review .evaluations .evaluation{
+.review .evaluations .evaluation {
   padding: 4rem;
   border: 0.1rem solid #e5e5e5;
   border-radius: 2rem;
 }
-.review .evaluations .name{
+.review .evaluations .name {
   font-family: var(--jakarta);
   font-weight: 500;
   color: #000000;
   font-size: 2.4rem;
   margin-bottom: 2rem;
 }
-.review .evaluations .date-city{
+.review .evaluations .date-city {
   display: flex;
   align-items: center;
   gap: 2rem;
   margin-bottom: 2rem;
 }
 .review .evaluations .date,
-.review .evaluations .city{
+.review .evaluations .city {
   font-family: var(--jakarta);
   font-weight: 400;
   color: #808080;
   font-size: 1.4rem;
 }
-.review .evaluations .about{
+.review .evaluations .about {
   padding: 1.4rem;
-  background: #F6F7F8;
+  background: #f6f7f8;
   display: block;
   width: fit-content;
   font-family: var(--jakarta);
@@ -302,10 +304,10 @@ button:hover {
   font-size: 1.4rem;
   margin-bottom: 2rem;
 }
-.review .evaluations .about .item{
+.review .evaluations .about .item {
   font-weight: 700;
 }
-.review .evaluations .score{
+.review .evaluations .score {
   display: flex;
   align-items: center;
   gap: 3rem;
@@ -325,7 +327,7 @@ button:hover {
 .review .evaluations .score .stars .icon {
   width: 1.8rem;
 }
-.review .evaluations .evaluation-title{
+.review .evaluations .evaluation-title {
   font-family: var(--jakarta);
   font-weight: 500;
   color: #000000;
@@ -333,7 +335,7 @@ button:hover {
   margin-bottom: 2rem;
   display: grid;
 }
-.review .evaluations .evaluation-content{
+.review .evaluations .evaluation-content {
   font-family: var(--jakarta);
   font-weight: 400;
   color: #808080;

@@ -1,20 +1,20 @@
-.who-we-are {
+.home .who-we-are {
   padding: 8rem 0;
   background-color: #f5f5f5;
   overflow: hidden;
 }
-.who-we-are .row {
+.home .who-we-are .row {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(2, 2fr);
   gap: 9rem;
 }
-.who-we-are .col-swiper {
+.home .who-we-are .col-swiper {
   width: 100%;
   height: 70rem;
   position: relative;
 }
-.who-we-are .swiper-who-we-are {
+.home .who-we-are .swiper-who-we-are {
   position: absolute;
   height: 100%;
   width: 140rem;
@@ -24,15 +24,15 @@
   grid-template-columns: 5rem 1fr 5rem;
   align-items: center;
 }
-.who-we-are .swiper-who-we-are .swiper {
+.home .who-we-are .swiper-who-we-are .swiper {
   direction: rtl;
   width: 100%;
 }
-.who-we-are .swiper-who-we-are .swiper-slide {
+.home .who-we-are .swiper-who-we-are .swiper-slide {
   height: 70rem;
   width: 70rem;
 }
-.who-we-are .swiper-who-we-are .thumb {
+.home .who-we-are .swiper-who-we-are .thumb {
   height: 100%;
   width: 100%;
   background-position: center center;
@@ -44,16 +44,16 @@
   border-radius: 3rem;
   padding: 5rem;
 }
-.who-we-are .swiper-who-we-are .thumb-3 {
+.home .who-we-are .swiper-who-we-are .thumb-3 {
   background-image: url('../img/quem-somos.png');
 }
-.who-we-are .swiper-who-we-are .thumb-2 {
+.home .who-we-are .swiper-who-we-are .thumb-2 {
   background-image: url('../img/quem-somos-2.png');
 }
-.who-we-are .swiper-who-we-are .thumb-1 {
+.home .who-we-are .swiper-who-we-are .thumb-1 {
   background-image: url('../img/quem-somos-3.png');
 }
-.who-we-are .swiper-who-we-are .title-swiper-who-we-are {
+.home .who-we-are .swiper-who-we-are .title-swiper-who-we-are {
   font-family: var(--jakarta);
   font-weight: 500;
   color: #ffffff;
@@ -61,8 +61,8 @@
   font-size: 4.5rem;
   line-height: 1.2;
 }
-.who-we-are .swiper-who-we-are .button-next,
-.who-we-are .swiper-who-we-are .button-prev {
+.home .who-we-are .swiper-who-we-are .button-next,
+.home .who-we-are .swiper-who-we-are .button-prev {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,26 +75,26 @@
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.35);
   z-index: 3;
 }
-.who-we-are .swiper-who-we-are .button-next:hover,
-.who-we-are .swiper-who-we-are .button-prev:hover {
+.home .who-we-are .swiper-who-we-are .button-next:hover,
+.home .who-we-are .swiper-who-we-are .button-prev:hover {
   cursor: pointer;
 }
-.who-we-are .swiper-who-we-are .button-next {
+.home .who-we-are .swiper-who-we-are .button-next {
   margin-left: 2rem;
 }
-.who-we-are .swiper-who-we-are .button-prev {
+.home .who-we-are .swiper-who-we-are .button-prev {
   margin-left: -2rem;
 }
-.who-we-are .swiper-who-we-are .button-next .icon,
-.who-we-are .swiper-who-we-are .button-prev .icon {
+.home .who-we-are .swiper-who-we-are .button-next .icon,
+.home .who-we-are .swiper-who-we-are .button-prev .icon {
   width: 1.1rem;
 }
-.who-we-are .swiper-who-we-are .button-next .icon {
+.home .who-we-are .swiper-who-we-are .button-next .icon {
   transform: rotate(180deg);
 }
-.who-we-are .col-text .title {
+.home .who-we-are .col-text .title {
   margin-bottom: 3rem;
 }
-.who-we-are .col-text .btn {
+.home .who-we-are .col-text .btn {
   align-self: flex-start;
 }

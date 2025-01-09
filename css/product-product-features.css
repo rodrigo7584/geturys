@@ -1,7 +1,7 @@
-.product-features {
+.product .product-features {
   padding: 8rem 0;
 }
-.product-features .row {
+.product .product-features .row {
   padding: 3.5rem;
   background: #ffffff;
   border-radius: 2.5rem;
@@ -9,7 +9,7 @@
   -moz-box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
 }
-.product-features .product-features-title {
+.product .product-features .product-features-title {
   font-family: var(--jakarta);
   font-weight: 600;
   font-size: 1.8rem;
@@ -20,12 +20,12 @@
   width: fit-content;
   margin-bottom: 2rem;
 }
-.product-features .table {
+.product .product-features .table {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
-.product-features .table-item {
+.product .product-features .table-item {
   padding: 1.3rem 1.5rem;
   border-radius: 1rem;
   background: #ffffff;
@@ -33,17 +33,17 @@
   justify-content: space-between;
   align-items: center;
 }
-.product-features .table-item:nth-child(even) {
+.product .product-features .table-item:nth-child(even) {
   background: #f9f9f9;
 }
-.product-features .table-feature,
-.product-features .table-description {
+.product .product-features .table-feature,
+.product .product-features .table-description {
   font-family: var(--jakarta);
   font-size: 1.6rem;
   color: #000000;
   font-weight: 600;
 }
-.product-features .table-description {
+.product .product-features .table-description {
   color: #808080;
   font-weight: 400;
 }
