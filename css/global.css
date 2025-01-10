@@ -125,24 +125,4 @@ button:hover {
 [data-modal]::backdrop {
   background: rgba(0, 0, 0, 0.5);
 }
-.new-collection-login {
-  padding: 8rem 0;
-  background: url('../img/nova-colecao-login.png');
-  background-position: center center;
-  background-size: cover;
-}
-.new-collection-login .title-thin {
-  color: #ffffff;
-}
-.new-collection-login .title {
-  margin-bottom: 4rem;
-  color: #ffffff;
-}
-.new-collection-login .title-detail::before {
-  background: #ffffff;
-}
-.new-collection-login .cards {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 3rem;
-}
+.notes

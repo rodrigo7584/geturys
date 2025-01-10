@@ -1,7 +1,7 @@
-.review {
+.product .review {
   padding: 8rem 0;
 }
-.review .review-top {
+.product .review .review-top {
   border-radius: 2.5rem;
   -webkit-box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
@@ -9,14 +9,14 @@
   overflow: hidden;
   margin-bottom: 8rem;
 }
-.review .review-top .review-header {
+.product .review .review-top .review-header {
   padding: 2.5rem;
   background: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.review .review-top .review-header .btn-review {
+.product .review .review-top .review-header .btn-review {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -28,20 +28,20 @@
   font-size: 1.6rem;
   color: #ffffff;
 }
-.review .review-top .review-content {
+.product .review .review-top .review-content {
   padding: 2.5rem;
   background-color: #f6f7f8;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
 }
-.review .review-top .review-content .total-score {
+.product .review .review-top .review-content .total-score {
   background: #ffffff;
   border-radius: 1rem;
   padding: 5rem;
   height: 100%;
 }
-.review .review-top .review-content .total-score .value {
+.product .review .review-top .review-content .total-score .value {
   font-family: var(--jakarta);
   font-weight: 500;
   color: #000000;
@@ -49,7 +49,7 @@
   margin-bottom: 1rem;
   display: block;
 }
-.review .review-top .review-content .total-score .quantity {
+.product .review .review-top .review-content .total-score .quantity {
   font-family: var(--jakarta);
   font-weight: 400;
   color: #808080;
@@ -57,45 +57,45 @@
   margin-bottom: 2rem;
   display: block;
 }
-.review .review-top .review-content .total-score .quantity .stars {
+.product .review .review-top .review-content .total-score .quantity .stars {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
-.review .review-top .review-content .total-score .quantity .stars .icon {
+.product .review .review-top .review-content .total-score .quantity .stars .icon {
   width: 1.8rem;
 }
-.review .review-top .review-content .score-filter {
+.product .review .review-top .review-content .score-filter {
   background: #ffffff;
   border-radius: 1rem;
   padding: 3rem;
   height: 100%;
 }
-.review .review-top .review-content .score-filter .score-filter-title {
+.product .review .review-top .review-content .score-filter .score-filter-title {
   font-family: var(--jakarta);
   font-weight: 500;
   color: #000000;
   font-size: 1.8rem;
   margin-bottom: 2rem;
 }
-.review .review-top .review-content .score-filter .buttons {
+.product .review .review-top .review-content .score-filter .buttons {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
-.review .review-top .review-content .score-filter .score-filter-button {
+.product .review .review-top .review-content .score-filter .score-filter-button {
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
   gap: 1rem;
 }
-.review .review-top .review-content .score-filter .score-filter-button .number {
+.product .review .review-top .review-content .score-filter .score-filter-button .number {
   font-family: var(--jakarta);
   font-weight: 400;
   color: #808080;
   font-size: 1.4rem;
 }
-.review .review-top .review-content .score-filter .score-filter-button .bar {
+.product .review .review-top .review-content .score-filter .score-filter-button .bar {
   position: relative;
   border-radius: 0.5rem;
   height: 0.7rem;
@@ -103,27 +103,27 @@
   background-color: #e8eaed;
   overflow: hidden;
 }
-.review .review-top .review-content .score-filter .score-filter-button .bar .fill {
+.product .review .review-top .review-content .score-filter .score-filter-button .bar .fill {
   position: absolute;
   width: 8%;
   background: #fbbd23;
   height: 100%;
   border-radius: 0.5rem;
 }
-.review .review-top .review-content .evaluation-filter {
+.product .review .review-top .review-content .evaluation-filter {
   background: #ffffff;
   border-radius: 1rem;
   padding: 3rem;
   height: 100%;
 }
-.review .review-top .review-content .evaluation-filter .evaluation-filter-title {
+.product .review .review-top .review-content .evaluation-filter .evaluation-filter-title {
   font-family: var(--jakarta);
   font-weight: 500;
   color: #000000;
   font-size: 1.8rem;
   margin-bottom: 2rem;
 }
-.review .review-top .review-content .evaluation-filter .evaluation-filter-button {
+.product .review .review-top .review-content .evaluation-filter .evaluation-filter-button {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -136,37 +136,37 @@
   color: #808080;
   font-size: 1.4rem;
 }
-.review .evaluations {
+.product .review .evaluations {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-.review .evaluations .evaluation {
+.product .review .evaluations .evaluation {
   padding: 4rem;
   border: 0.1rem solid #e5e5e5;
   border-radius: 2rem;
 }
-.review .evaluations .name {
+.product .review .evaluations .name {
   font-family: var(--jakarta);
   font-weight: 500;
   color: #000000;
   font-size: 2.4rem;
   margin-bottom: 2rem;
 }
-.review .evaluations .date-city {
+.product .review .evaluations .date-city {
   display: flex;
   align-items: center;
   gap: 2rem;
   margin-bottom: 2rem;
 }
-.review .evaluations .date,
-.review .evaluations .city {
+.product .review .evaluations .date,
+.product .review .evaluations .city {
   font-family: var(--jakarta);
   font-weight: 400;
   color: #808080;
   font-size: 1.4rem;
 }
-.review .evaluations .about {
+.product .review .evaluations .about {
   padding: 1.4rem;
   background: #f6f7f8;
   display: block;
@@ -177,30 +177,30 @@
   font-size: 1.4rem;
   margin-bottom: 2rem;
 }
-.review .evaluations .about .item {
+.product .review .evaluations .about .item {
   font-weight: 700;
 }
-.review .evaluations .score {
+.product .review .evaluations .score {
   display: flex;
   align-items: center;
   gap: 3rem;
   margin-bottom: 2rem;
 }
-.review .evaluations .score .stars-value {
+.product .review .evaluations .score .stars-value {
   font-family: var(--jakarta);
   font-weight: 500;
   color: #000000;
   font-size: 1.8rem;
 }
-.review .evaluations .score .stars {
+.product .review .evaluations .score .stars {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
-.review .evaluations .score .stars .icon {
+.product .review .evaluations .score .stars .icon {
   width: 1.8rem;
 }
-.review .evaluations .evaluation-title {
+.product .review .evaluations .evaluation-title {
   font-family: var(--jakarta);
   font-weight: 500;
   color: #000000;
@@ -208,7 +208,7 @@
   margin-bottom: 2rem;
   display: grid;
 }
-.review .evaluations .evaluation-content {
+.product .review .evaluations .evaluation-content {
   font-family: var(--jakarta);
   font-weight: 400;
   color: #808080;

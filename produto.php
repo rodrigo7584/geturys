@@ -501,8 +501,36 @@
       </div>
     </div>
   </section>
-  <?php include './src/our-collection.php'?>
-  <section class=''>
+  <?php include "./src/our-collection.php"?>
+  <section class="notes">
+    <div class="container">
+      <div class="row">
+        <div class="boxes">
+          <div class="box">
+            <img src="./img/clock.svg" alt="" class="icon">
+            <h2 class="note-title"> Atendimento</h2>
+            <p class="note-text">
+              Segunda a Quinta- Feira 08 Às 16h
+              Sexta- Feira 08 às 14
+            </p>
+          </div>
+          <div class="box">
+            <img src="./img/box.svg" alt="" class="icon">
+            <h2 class="note-title"> Trocas e devoluções</h2>
+            <p class="note-text">
+              Até 7 dias após o recebimento
+            </p>
+          </div>
+          <div class="box">
+            <img src="./img/creditcard.svg" alt="" class="icon">
+            <h2 class="note-title"> Parcelamento</h2>
+            <p class="note-text">
+              10x sem juros no cartão
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
   <?php include './src/newsletter-faq.php'?>
 </main>

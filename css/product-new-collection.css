@@ -1,10 +1,10 @@
-.new-collection {
+.product .new-collection {
   padding: 8rem 0;
 }
-.new-collection .title {
+.product .new-collection .title {
   margin-bottom: 4rem;
 }
-.new-collection .cards {
+.product .new-collection .cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 3rem;
