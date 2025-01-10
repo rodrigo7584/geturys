@@ -10,7 +10,7 @@
 /*SRC PARTS CSS*/
 @import url('./header.css');
 @import url('./footer.css');
-@import url('./product-card-slide.css');
+@import url('./card-product.css');
 @import url('./our-collection.css');
 @import url('./testimonials.css');
 @import url('./seller-partner.css');
@@ -26,3 +26,6 @@
 @import url('./product-product-details.css');
 @import url('./product-product-features.css');
 @import url('./product-discover.css');
+@import url('./product-review.css');
+@import url('./product-new-collection.css');
+@import url('./product-new-collection-login.css');
