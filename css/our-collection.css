@@ -1,5 +1,5 @@
-.our-collection{
-  padding: 4rem 0;
+.our-collection {
+  padding: 8rem 0;
 }
 .our-collection .title-thin {
   text-align: center;
@@ -9,15 +9,15 @@
   text-align: center;
   margin-bottom: 4rem;
 }
-.our-collection .cards-our-collection{
+.our-collection .cards-our-collection {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap:3rem;
+  gap: 3rem;
 }
-.our-collection .card-our-collection{
+.our-collection .card-our-collection {
   position: relative;
   height: 23rem;
-  padding:2.5rem;
+  padding: 2.5rem;
   display: flex;
   align-items: flex-end;
   background-color: aliceblue;
@@ -25,7 +25,7 @@
   background-position: center center;
   background-size: cover;
 }
-.our-collection .card-our-collection::before{
+.our-collection .card-our-collection::before {
   content: '';
   width: 100%;
   height: 100%;
@@ -35,7 +35,7 @@
   background: linear-gradient(195deg, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.8));
   z-index: 1;
 }
-.our-collection .card-title-our-collection{
+.our-collection .card-title-our-collection {
   font-family: var(--jakarta);
   font-size: 2rem;
   font-weight: 500;
@@ -43,23 +43,23 @@
   line-height: 1.2;
   z-index: 3;
 }
-.our-collection .card-our-collection.card-female{
+.our-collection .card-our-collection.card-female {
   background-image: url('../img/colecoes-1.png');
   grid-column: 1/3;
 }
-.our-collection .card-our-collection.card-bamboo{
+.our-collection .card-our-collection.card-bamboo {
   background-image: url('../img/colecoes-2.png');
 }
-.our-collection .card-our-collection.card-minimalist{
+.our-collection .card-our-collection.card-minimalist {
   background-image: url('../img/colecoes-3.png');
 }
-.our-collection .card-our-collection.card-polarized{
+.our-collection .card-our-collection.card-polarized {
   background-image: url('../img/colecoes-4.png');
 }
-.our-collection .card-our-collection.card-fashionista{
+.our-collection .card-our-collection.card-fashionista {
   background-image: url('../img/colecoes-5.png');
 }
-.our-collection .card-our-collection.card-male{
+.our-collection .card-our-collection.card-male {
   background-image: url('../img/colecoes-6.png');
   grid-column: 3/5;
 }

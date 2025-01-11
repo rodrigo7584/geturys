@@ -125,4 +125,18 @@ button:hover {
 [data-modal]::backdrop {
   background: rgba(0, 0, 0, 0.5);
 }
-.notes
+@media (max-width: 1400px) {
+  .btn {
+    font-size: 1.4rem;
+    padding: 1rem 2.8rem;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .title-thin {
+    font-size: 1.5rem;
+  }
+  .text {
+    font-size: 1.6rem;
+  }
+}

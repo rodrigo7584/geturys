@@ -84,6 +84,9 @@
   overflow: hidden;
   transition: max-height 0.3s ease-out;
 }
+.newsletter-faq .accordion .answer .text {
+  font-size: 1.6rem;
+}
 .newsletter-faq .accordion .answer.open {
   max-height: 800px;
 }

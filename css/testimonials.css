@@ -19,6 +19,7 @@
   background: #f5f5f5;
 }
 .testimonials .card-testimonial .testimonial .text {
+  font-size: 1.6rem;
   margin-bottom: 0;
 }
 .testimonials .card-testimonial .testimonial::before,

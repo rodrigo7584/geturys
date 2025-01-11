@@ -1,0 +1,39 @@
+.notes {
+  padding: 8rem 0;
+}
+.notes .row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+.notes .box {
+  -webkit-box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
+  padding: 3.5rem;
+  border-radius: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.notes .box .icon {
+  width: 4.8rem;
+  margin-bottom: 2rem;
+}
+.notes .note-title {
+  font-family: var(--jakarta);
+  color: #000000;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.25;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.notes .note-text {
+  font-family: var(--jakarta);
+  color: #808080;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  text-align: center;
+}

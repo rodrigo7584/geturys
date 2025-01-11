@@ -15,6 +15,7 @@
 @import url('./testimonials.css');
 @import url('./seller-partner.css');
 @import url('./newsletter-faq.css');
+@import url('./new-collection-login.css');
 
 /*PAGES CSS*/
 @import url('./home-hero.css');
@@ -28,4 +29,10 @@
 @import url('./product-discover.css');
 @import url('./product-review.css');
 @import url('./product-new-collection.css');
-@import url('./product-new-collection-login.css');
+@import url('./product-notes.css');
+
+@import url('./list-hero.css');
+@import url('./list-for-her.css');
+@import url('./list-for-him.css');
+@import url('./list-gift.css');
+@import url('./list-style.css');

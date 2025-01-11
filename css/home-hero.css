@@ -34,3 +34,15 @@
   display: flex;
   gap: 1.7rem;
 }
+@media (max-width: 1400px) {
+  .home .hero {
+    padding: 10rem 0;
+  }
+  .home .hero-title {
+    font-size: 3.8rem;
+  }
+  .home .hero-subtitle {
+    font-size: 1.8rem;
+    width: 37.5rem;
+  }
+}

@@ -1,0 +1,11 @@
+.list .gift {
+  padding: 8rem 0;
+}
+.list .gift .title {
+  margin-bottom: 4rem;
+}
+.list .gift .cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}

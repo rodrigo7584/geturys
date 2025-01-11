@@ -1,0 +1,11 @@
+.list .for-her {
+  padding: 8rem 0;
+}
+.list .for-her .title {
+  margin-bottom: 4rem;
+}
+.list .for-her .cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}

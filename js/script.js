@@ -66,6 +66,11 @@ const swiperTestimonials = new Swiper('.swiper-testimonials .swiper', {
     prevEl: '.swiper-testimonials .button-prev'
   }
 })
+
+const swiperListHero = new Swiper('.swiper-list-hero .swiper', {
+  loop: true,
+  slidesPerView: 1
+})
 /*
 END SWIPERS
 */
@@ -123,71 +128,70 @@ END ACCORDION
 /* 
 MODAL 
 */
-document.addEventListener("DOMContentLoaded", function() {
-  const openButtons = document.querySelectorAll('[data-btn-modal]');
-  const closeButtons = document.querySelectorAll('[data-close-modal]');
-  const modals = document.querySelectorAll('dialog');
+document.addEventListener('DOMContentLoaded', function () {
+  const openButtons = document.querySelectorAll('[data-btn-modal]')
+  const closeButtons = document.querySelectorAll('[data-close-modal]')
+  const modals = document.querySelectorAll('dialog')
 
   openButtons.forEach(button => {
-      button.addEventListener("click", () => {
-          const modalName = button.getAttribute('data-btn-modal');
-          const targetModal = document.querySelector(`dialog[data-modal="${modalName}"]`);
+    button.addEventListener('click', () => {
+      const modalName = button.getAttribute('data-btn-modal')
+      const targetModal = document.querySelector(`dialog[data-modal="${modalName}"]`)
 
-          modals.forEach(modal => {
-              if (modal.open) {
-                  modal.close();
-              }
-          });
+      modals.forEach(modal => {
+        if (modal.open) {
+          modal.close()
+        }
+      })
 
-          if (targetModal) {
-              targetModal.showModal();
-          }
-      });
-  });
+      if (targetModal) {
+        targetModal.showModal()
+      }
+    })
+  })
 
   closeButtons.forEach(button => {
-      button.addEventListener("click", () => {
-          const modal = button.closest('dialog');
-          if (modal) {
-              modal.close();
-          }
-      });
-  });
+    button.addEventListener('click', () => {
+      const modal = button.closest('dialog')
+      if (modal) {
+        modal.close()
+      }
+    })
+  })
 
   modals.forEach(dialog => {
-      dialog.addEventListener("click", e => {
-          const dialogDimensions = dialog.getBoundingClientRect();
-          if (
-              e.clientX < dialogDimensions.left ||
-              e.clientX > dialogDimensions.right ||
-              e.clientY < dialogDimensions.top ||
-              e.clientY > dialogDimensions.bottom
-          ) {
-              dialog.close();
-          }
-      });
-  });
-});
+    dialog.addEventListener('click', e => {
+      const dialogDimensions = dialog.getBoundingClientRect()
+      if (
+        e.clientX < dialogDimensions.left ||
+        e.clientX > dialogDimensions.right ||
+        e.clientY < dialogDimensions.top ||
+        e.clientY > dialogDimensions.bottom
+      ) {
+        dialog.close()
+      }
+    })
+  })
+})
 /*
 END MODAL 
 */
 
-
-var swiperProductDetailsThumbs = new Swiper(".swiper-product-details .swiper-thumbs .swiper", {
+var swiperProductDetailsThumbs = new Swiper('.swiper-product-details .swiper-thumbs .swiper', {
   spaceBetween: 15,
   slidesPerView: 4,
   freeMode: true,
-  direction: "vertical",
-  watchSlidesProgress: true,
-});
+  direction: 'vertical',
+  watchSlidesProgress: true
+})
 
-var swiperProductDetailsPhotos = new Swiper(".swiper-product-details .swiper-photos .swiper", {
+var swiperProductDetailsPhotos = new Swiper('.swiper-product-details .swiper-photos .swiper', {
   // allowTouchMove: false,
   thumbs: {
-    swiper: swiperProductDetailsThumbs,
-  } ,
+    swiper: swiperProductDetailsThumbs
+  },
   navigation: {
-    nextEl: ".swiper-product-details .swiper-thumbs .button-prev",
-    prevEl: ".swiper-product-details .swiper-thumbs .button-next",
+    nextEl: '.swiper-product-details .swiper-thumbs .button-prev',
+    prevEl: '.swiper-product-details .swiper-thumbs .button-next'
   }
-});
+})

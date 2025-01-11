@@ -1,20 +1,20 @@
-.product .new-collection-login {
+.new-collection-login {
   padding: 8rem 0;
   background: url('../img/nova-colecao-login.png');
   background-position: center center;
   background-size: cover;
 }
-.product .new-collection-login .title-thin {
+.new-collection-login .title-thin {
   color: #ffffff;
 }
-.product .new-collection-login .title {
+.new-collection-login .title {
   margin-bottom: 4rem;
   color: #ffffff;
 }
-.product .new-collection-login .title-detail::before {
+.new-collection-login .title-detail::before {
   background: #ffffff;
 }
-.product .new-collection-login .cards {
+.new-collection-login .cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 3rem;
