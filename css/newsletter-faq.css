@@ -90,3 +90,15 @@
 .newsletter-faq .accordion .answer.open {
   max-height: 800px;
 }
+@media (max-width: 1400px) {
+  .newsletter-faq .title {
+    font-size: 1.5rem;
+  }
+  .newsletter-faq .accordion .answer .content {
+    padding: 0rem 0;
+  }
+  .newsletter-faq .accordion .answer .text {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+  }
+}

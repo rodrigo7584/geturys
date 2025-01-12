@@ -63,3 +63,11 @@
   background-image: url('../img/colecoes-6.png');
   grid-column: 3/5;
 }
+@media (max-width: 1400px) {
+  .our-collection {
+    padding: 5rem 0;
+  }
+  .our-collection .card-our-collection {
+    height: 19rem;
+  }
+}

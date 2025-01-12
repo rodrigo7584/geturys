@@ -98,3 +98,24 @@
 .home .who-we-are .col-text .btn {
   align-self: flex-start;
 }
+@media (max-width: 1400px) {
+  .home .who-we-are {
+    padding: 5rem 0;
+  }
+  .home .who-we-are .row {
+    gap: 3rem;
+  }
+  .home .who-we-are .swiper-who-we-are {
+    width: 100rem;
+  }
+  .home .who-we-are .col-swiper {
+    height: 50rem;
+  }
+  .home .who-we-are .swiper-who-we-are .swiper-slide {
+    height: 50rem;
+    width: 50rem;
+  }
+  .home .who-we-are .swiper-who-we-are .title-swiper-who-we-are {
+    font-size: 3.5rem;
+  }
+}

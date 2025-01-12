@@ -35,3 +35,18 @@
   line-height: 1.2;
   margin-bottom: 2.5rem;
 }
+@media (max-width: 1400px) {
+  .home .benefits {
+    padding: 5rem 0;
+  }
+  .home .benefits .benefits-thumb {
+    height: 25rem;
+  }
+  .home .benefits .benefits-content {
+    padding: 3rem;
+  }
+  .home .benefits .benefits-title {
+    font-size: 2.5rem;
+  }
+  
+}

@@ -78,7 +78,7 @@ modals css
 
 .modal-seller .modal-seller-container{
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 55% 45%;
   min-height: 80vh;
   align-items: center;
   position: relative;
@@ -129,10 +129,9 @@ modals css
   margin-top: 1rem;
   width: 100%;
 }
-
 .modal-partner .modal-partner-container{
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 55% 45%;
   min-height: 80vh;
   align-items: center;
   position: relative;
@@ -186,7 +185,7 @@ modals css
 
 .modal-thanks .modal-thanks-container{
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 55% 45%;
   min-height: 80vh;
   align-items: center;
   position: relative;
@@ -220,4 +219,45 @@ modals css
 .modal-thanks .btn{
   text-align: center;
   width: 100%;
+}
+@media (max-width: 1400px) {
+  .seller-partner {
+    padding: 5rem 0;
+  }
+  .seller-partner .seller-partner-buttons {
+    margin-bottom: 2rem;
+  }
+  .seller-partner .title {
+    margin-bottom: 2rem;
+  }
+  .seller-partner .text{
+    margin-bottom: 2rem;
+  }
+  .seller-partner .seller-partner-list {
+    margin-bottom: 2rem;
+    gap: 2rem;
+  }
+  .modal-partner .col-content {
+    padding: 3rem;
+  }
+  .modal-partner .text{
+    font-size: 1.4rem;
+  }
+  .modal-partner .form-modal-input {
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+  .modal-seller .col-content{
+    padding: 3rem;
+  }
+  .modal-seller .text{
+    font-size: 1.4rem;
+  }
+  .modal-seller .form-modal-input {
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+  .modal-thanks .col-content{
+    padding: 3rem;
+  }
 }
