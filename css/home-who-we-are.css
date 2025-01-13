@@ -119,3 +119,18 @@
     font-size: 3.5rem;
   }
 }
+@media (max-width: 1200px) {
+  .home .who-we-are .swiper-who-we-are {
+    width: 80rem;
+  }
+  .home .who-we-are .col-swiper {
+    height: 40rem;
+  }
+  .home .who-we-are .swiper-who-we-are .swiper-slide {
+    height: 40rem;
+    width: 40rem;
+  }
+  .home .who-we-are .swiper-who-we-are .title-swiper-who-we-are {
+    font-size: 2.8rem;
+  }
+}

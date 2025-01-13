@@ -215,3 +215,24 @@
   font-size: 1.4rem;
   line-height: 1.3;
 }
+@media (max-width: 1400px) {
+  .product .review {
+    padding: 5rem 0;
+  }
+  .product .review .review-top {
+    margin-bottom: 5rem;
+  }
+  .product .review .evaluations .name {
+    font-size: 2rem;
+  }
+  .product .review .evaluations .date, .product .review .evaluations .city {
+    font-size: 1.2rem;
+  }
+  .product .review .evaluations .score .stars-value {
+      font-size: 1.5rem;
+  }
+  .product .review .evaluations .score {
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+}

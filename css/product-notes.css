@@ -1,12 +1,12 @@
-.notes {
+.product .notes {
   padding: 8rem 0;
 }
-.notes .row {
+.product .notes .row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
 }
-.notes .box {
+.product .notes .box {
   -webkit-box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
@@ -16,11 +16,11 @@
   flex-direction: column;
   align-items: center;
 }
-.notes .box .icon {
+.product .notes .box .icon {
   width: 4.8rem;
   margin-bottom: 2rem;
 }
-.notes .note-title {
+.product .notes .note-title {
   font-family: var(--jakarta);
   color: #000000;
   font-weight: 600;
@@ -29,11 +29,25 @@
   margin-bottom: 1rem;
   text-align: center;
 }
-.notes .note-text {
+.product .notes .note-text {
   font-family: var(--jakarta);
   color: #808080;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.25;
   text-align: center;
+}
+@media (max-width: 1400px) {
+  .product .notes {
+    padding: 5rem 0;
+  }
+  .product .notes .box .icon {
+    width: 3.8rem;
+  }
+  .product .notes .note-title {
+    font-size: 1.8rem;
+  }
+  .product .notes .note-text {
+    font-size: 1.4rem;
+  }
 }

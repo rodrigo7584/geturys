@@ -97,3 +97,12 @@
 .product .discover .prices .method-2 .installment-price {
   font-weight: 700;
 }
+@media (max-width: 1400px) {
+  .product .discover {
+    padding: 5rem 0;
+  }
+  .product .discover .product-card-big-thumb .thumb {
+    width: 100%;
+    height: 26rem;
+  }
+}

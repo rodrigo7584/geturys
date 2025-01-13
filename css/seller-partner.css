@@ -261,3 +261,14 @@ modals css
     padding: 3rem;
   }
 }
+@media (max-width: 1200px) {
+  .modal-partner .modal-partner-container {
+    grid-template-columns: 40% 60%;
+  }
+  .modal-partner .form-modal-label {
+    font-size: 1.3rem;
+  }
+  .modal-partner .form-modal-input {
+    font-size: 1.2rem;
+  }
+}

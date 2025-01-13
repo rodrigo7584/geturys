@@ -47,3 +47,17 @@
   color: #808080;
   font-weight: 400;
 }
+@media (max-width: 1400px) {
+  .product .product-features {
+    padding: 5rem 0;
+  }
+  .product .product-features .product-features-title {
+    font-size: 1.6rem;
+  }
+  .product .product-features .table {
+    gap: 1rem;
+  }
+  .product .product-features .table-feature, .product .product-features .table-description {
+    font-size: 1.4rem;
+  }
+}

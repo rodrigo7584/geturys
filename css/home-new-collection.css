@@ -191,3 +191,27 @@
     padding: 1rem 3.8rem;
   }
 }
+@media (max-width: 1200px) {
+  .home .card-product-slide .product-title {
+    font-size: 1.6rem;
+  }
+  .home .card-product-slide .btn-chart {
+    padding: 1rem 2rem;
+  }
+  .home .card-product-slide .old-price {
+    font-size: 1.1rem;
+  }
+  .home .card-product-slide .old-price::before {
+    height: 0.1rem;
+    top: calc(50% - 0.05rem);
+  }
+  .home .card-product-slide .price {
+    font-size: 2.3rem;
+  }
+  .home .card-product-slide .discount {
+    font-size: 1rem;
+  }
+  .home .card-product-slide .card-product-footer {
+    gap: 1rem;
+  }
+}

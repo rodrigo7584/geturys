@@ -9,3 +9,11 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 3rem;
 }
+@media (max-width: 1400px) {
+  .list .for-her {
+    padding: 5rem 0;
+  }
+  .list .for-her .title {
+    margin-bottom: 2rem;
+  }
+}

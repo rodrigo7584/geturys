@@ -51,20 +51,29 @@ const swiperWhoWeAre = new Swiper('.swiper-who-we-are .swiper', {
   loop: true,
   slidesPerView: 'auto',
   spaceBetween: 25,
+ 
   navigation: {
     nextEl: '.swiper-who-we-are .button-prev',
     prevEl: '.swiper-who-we-are .button-next'
-  }
+  },
 })
 
 const swiperTestimonials = new Swiper('.swiper-testimonials .swiper', {
   loop: true,
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween: 25,
   navigation: {
     nextEl: '.swiper-testimonials .button-next',
     prevEl: '.swiper-testimonials .button-prev'
-  }
+  },
+  breakpoints: {
+    992: {
+      slidesPerView: 2,
+    },
+    1200:{
+      slidesPerView: 3,
+    }
+  },
 })
 
 const swiperListHero = new Swiper('.swiper-list-hero .swiper', {

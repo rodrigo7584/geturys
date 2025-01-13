@@ -40,3 +40,9 @@
     font-size: 1.6rem;
   }
 }
+@media (max-width: 1200px) {
+  .home .by-style .row-content .btn {
+    width: 20rem;
+    font-size: 1.4rem;
+  }
+}

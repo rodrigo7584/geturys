@@ -148,3 +148,8 @@
   width: 2.5rem;
   filter: var(--svg-gray);
 }
+@media (max-width: 1400px) {
+  .card-product .card-top .product-thumb {
+    margin-bottom: 0rem;
+  }
+}
