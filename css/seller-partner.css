@@ -311,3 +311,11 @@ modals css
     gap: 1rem;
   }
 }
+@media (max-width: 576px) {
+  .seller-partner .seller-partner-content {
+    width: 100%;
+  }
+  .modal-partner .form-modal-label {
+    font-size: 1.2rem;
+  }
+}

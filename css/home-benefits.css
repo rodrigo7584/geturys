@@ -70,3 +70,8 @@
     height: 20rem;
   }
 }
+@media (max-width: 768px) {
+  .home .benefits .benefits-card {
+    grid-template-columns: 1fr;
+  }
+}

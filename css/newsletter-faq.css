@@ -138,3 +138,8 @@
     width: 1.5rem;
   }
 }
+@media (max-width: 768px) {
+  .newsletter-faq .accordion .answer .text {
+    font-size: 1.2rem;
+  }
+}

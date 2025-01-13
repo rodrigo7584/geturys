@@ -9,6 +9,41 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 3rem;
 }
+.list .for-her .swiper-for-her {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+}
+.list .for-her .swiper-for-her .swiper {
+  width: 100%;
+  grid-column: 2/3;
+}
+.list .for-her .swiper-for-her .swiper-slide {
+  padding: 1rem;
+}
+
+.list .for-her .swiper-for-her .button-next,
+.list .for-her .swiper-for-her .button-prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  width: 6rem;
+}
+.list .for-her .swiper-for-her .button-next:hover,
+.list .for-her .swiper-for-her .button-prev:hover {
+  cursor: pointer;
+}
+.list .for-her .swiper-for-her .button-next .icon,
+.list .for-her .swiper-for-her .button-prev .icon {
+  width: 2rem;
+}
+.list .for-her .swiper-for-her .button-next .icon {
+  transform: rotate(180deg);
+}
+.list .for-her .swiper-for-her .swiper-button-lock {
+  display: none;
+}
 @media (max-width: 1400px) {
   .list .for-her {
     padding: 5rem 0;

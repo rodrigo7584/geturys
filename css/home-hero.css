@@ -54,3 +54,14 @@
     font-size: 1.6rem;
   }
 }
+@media (max-width: 576px) {
+  .home .hero {
+    padding: 8rem 0;
+  }
+  .home .hero .col {
+    width: 100%;
+  }
+  .home .hero-subtitle {
+    width: 100%;
+  }
+}

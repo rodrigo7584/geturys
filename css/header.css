@@ -149,3 +149,9 @@
     width: 12rem;
   }
 }
+
+@media (max-width: 576px) {
+  .header .header-top .user-info .user-welcome {
+    display: none;
+  }
+}

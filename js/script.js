@@ -117,6 +117,22 @@ var swiperListTypes = new Swiper('.swiper-list-types .swiper', {
     }
   }
 })
+const swiperForHer = new Swiper('.swiper-for-her .swiper', {
+  loop: false,
+  slidesPerView: 1,
+  navigation: {
+    nextEl: '.swiper-for-her .button-next',
+    prevEl: '.swiper-for-her .button-prev'
+  },
+  breakpoints: {
+    577: {
+      slidesPerView: 2
+    },
+    768: {
+      slidesPerView: 4
+    }
+  }
+})
 /*
 END SWIPERS
 */

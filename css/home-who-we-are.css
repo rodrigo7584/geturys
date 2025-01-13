@@ -187,11 +187,14 @@
   .home .who-we-are .swiper-who-we-are {
     width: 100%;
   }
-  .home .who-we-are .swiper-who-we-are .swiper-slide {
-    height: 35rem;
+  .home .who-we-are .col-swiper {
+    height: 30rem;
   }
   .home .who-we-are .swiper-who-we-are .swiper-slide {
-    height: 35rem;
+    height: 30rem;
+  }
+  .home .who-we-are .swiper-who-we-are .swiper-slide {
+    height: 30rem;
     width: 100%;
   }
   .home .who-we-are .swiper-who-we-are .title-swiper-who-we-are {
