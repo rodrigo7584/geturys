@@ -29,7 +29,7 @@
   .home .by-style {
     padding: 5rem 0;
   }
-  .home .by-style .row-content{
+  .home .by-style .row-content {
     padding: 15rem 0;
   }
   .home .by-style .row-title .title {
@@ -44,5 +44,10 @@
   .home .by-style .row-content .btn {
     width: 20rem;
     font-size: 1.4rem;
+  }
+}
+@media (max-width: 992px) {
+  .home .by-style {
+    padding: 3rem 0;
   }
 }

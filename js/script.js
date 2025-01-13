@@ -39,11 +39,19 @@ SWIPERS
 */
 const swiperNewCollection = new Swiper('.swiper-new-collection .swiper', {
   loop: true,
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween: 25,
   navigation: {
     nextEl: '.swiper-new-collection .button-next',
     prevEl: '.swiper-new-collection .button-prev'
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 3
+    },
+    992: {
+      slidesPerView: 3
+    }
   }
 })
 
@@ -51,11 +59,11 @@ const swiperWhoWeAre = new Swiper('.swiper-who-we-are .swiper', {
   loop: true,
   slidesPerView: 'auto',
   spaceBetween: 25,
- 
+
   navigation: {
     nextEl: '.swiper-who-we-are .button-prev',
     prevEl: '.swiper-who-we-are .button-next'
-  },
+  }
 })
 
 const swiperTestimonials = new Swiper('.swiper-testimonials .swiper', {
@@ -68,18 +76,38 @@ const swiperTestimonials = new Swiper('.swiper-testimonials .swiper', {
   },
   breakpoints: {
     992: {
-      slidesPerView: 2,
+      slidesPerView: 2
     },
-    1200:{
-      slidesPerView: 3,
+    1200: {
+      slidesPerView: 3
     }
-  },
+  }
 })
 
 const swiperListHero = new Swiper('.swiper-list-hero .swiper', {
   loop: true,
   slidesPerView: 1
 })
+
+var swiperProductDetailsThumbs = new Swiper('.swiper-product-details .swiper-thumbs .swiper', {
+  spaceBetween: 15,
+  slidesPerView: 4,
+  freeMode: true,
+  direction: 'vertical',
+  watchSlidesProgress: true
+})
+
+var swiperProductDetailsPhotos = new Swiper('.swiper-product-details .swiper-photos .swiper', {
+  // allowTouchMove: false,
+  thumbs: {
+    swiper: swiperProductDetailsThumbs
+  },
+  navigation: {
+    nextEl: '.swiper-product-details .swiper-thumbs .button-prev',
+    prevEl: '.swiper-product-details .swiper-thumbs .button-next'
+  }
+})
+
 /*
 END SWIPERS
 */
@@ -185,22 +213,3 @@ document.addEventListener('DOMContentLoaded', function () {
 /*
 END MODAL 
 */
-
-var swiperProductDetailsThumbs = new Swiper('.swiper-product-details .swiper-thumbs .swiper', {
-  spaceBetween: 15,
-  slidesPerView: 4,
-  freeMode: true,
-  direction: 'vertical',
-  watchSlidesProgress: true
-})
-
-var swiperProductDetailsPhotos = new Swiper('.swiper-product-details .swiper-photos .swiper', {
-  // allowTouchMove: false,
-  thumbs: {
-    swiper: swiperProductDetailsThumbs
-  },
-  navigation: {
-    nextEl: '.swiper-product-details .swiper-thumbs .button-prev',
-    prevEl: '.swiper-product-details .swiper-thumbs .button-next'
-  }
-})

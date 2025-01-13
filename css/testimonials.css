@@ -113,3 +113,20 @@
     font-size: 1.2rem;
   }
 }
+@media (max-width: 992px) {
+  .testimonials {
+    padding: 3rem 0;
+  }
+  .testimonials .swiper-testimonials {
+    grid-template-columns: 3rem 1fr 3rem;
+  }
+  .testimonials .swiper-testimonials .button-next,
+  .testimonials .swiper-testimonials .button-prev {
+    height: 3rem;
+    width: 3rem;
+  }
+  .testimonials .swiper-testimonials .button-next .icon,
+  .testimonials .swiper-testimonials .button-prev .icon {
+    width: 1rem;
+  }
+}

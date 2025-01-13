@@ -71,3 +71,24 @@
     height: 19rem;
   }
 }
+@media (max-width: 992px) {
+  .our-collection {
+    padding: 3rem 0;
+  }
+  /* .our-collection .card-our-collection.card-female,
+  .our-collection .card-our-collection.card-male {
+    grid-column: auto;
+  } */
+  .our-collection .card-title-our-collection {
+    font-size: 1.6rem;
+  }
+  .our-collection .card-our-collection {
+    position: relative;
+
+    padding: 1.5rem;
+  }
+  .our-collection .cards-our-collection {
+    gap: 1rem;
+    /* grid-template-columns: repeat(3, 1fr); */
+  }
+}

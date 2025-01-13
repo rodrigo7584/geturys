@@ -55,3 +55,18 @@
     margin-bottom: 2rem;
   }
 }
+@media (max-width: 992px) {
+  .home .benefits {
+    padding: 3rem 0;
+  }
+  .home .benefits .benefits-cards {
+    grid-template-columns: 1fr;
+  }
+  .home .benefits .benefits-card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+  }
+  .home .benefits .benefits-thumb {
+    height: 20rem;
+  }
+}

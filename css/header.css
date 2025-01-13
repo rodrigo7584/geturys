@@ -114,3 +114,19 @@
     padding: 1.2rem;
   }
 }
+@media (max-width: 992px) {
+  .header .header-top {
+    grid-template-columns: 1fr auto auto auto;
+    gap: 1rem 2rem;
+  }
+  .header .header-top .logo {
+    width: 14rem;
+  }
+  .header .header-top .search-box {
+    order: 4;
+    grid-column: 1/5;
+  }
+  .header .header-top .form-search .input-search {
+    font-size: 1.2rem;
+  }
+}
