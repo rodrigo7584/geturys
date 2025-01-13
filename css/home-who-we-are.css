@@ -166,3 +166,35 @@
     margin-bottom: 1rem;
   }
 }
+@media (max-width: 768px) {
+  .home .who-we-are .row {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .home .who-we-are .col-swiper {
+    order: 2;
+  }
+  .home .who-we-are .swiper-who-we-are {
+    position: relative;
+    grid-template-columns: 3rem 1fr 3rem;
+  }
+  .home .who-we-are .swiper-who-we-are .button-next {
+    margin-left: 0rem;
+  }
+  .home .who-we-are .swiper-who-we-are .button-prev {
+    margin-left: -1rem;
+  }
+  .home .who-we-are .swiper-who-we-are {
+    width: 100%;
+  }
+  .home .who-we-are .swiper-who-we-are .swiper-slide {
+    height: 35rem;
+  }
+  .home .who-we-are .swiper-who-we-are .swiper-slide {
+    height: 35rem;
+    width: 100%;
+  }
+  .home .who-we-are .swiper-who-we-are .title-swiper-who-we-are {
+    font-size: 2rem;
+  }
+}

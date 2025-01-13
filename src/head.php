@@ -42,7 +42,7 @@
         </div>
       </div>
       <div class="row header-list">
-        <ul class="list-types">
+        <!-- <ul class="list-types">
           <li class="item-types">
             <a href="#" class="item">Oculos tipo 1</a>
           </li>
@@ -61,7 +61,31 @@
           <li class="item-types">
             <a href="#" class="item">Oculos tipo 6</a>
           </li>
-        </ul>
+        </ul> -->
+        <div class="swiper-list-types">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#" class="item">Oculos tipo 1</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="item">Oculos tipo 2</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="item">Oculos tipo 3</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="item">Oculos tipo 4</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="item">Oculos tipo 5</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="item">Oculos tipo 6</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </header>

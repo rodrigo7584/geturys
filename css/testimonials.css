@@ -117,6 +117,18 @@
   .testimonials {
     padding: 3rem 0;
   }
+  .testimonials .card-testimonial {
+    padding: 2.5rem;
+  }
+  .testimonials .card-testimonial .testimonial .text {
+    font-size: 1.2rem;
+  }
+  .testimonials .name-card-testimonial {
+    font-size: 1.4rem;
+  }
+  .testimonials .date-card-testimonial {
+    font-size: 1rem;
+  }
   .testimonials .swiper-testimonials {
     grid-template-columns: 3rem 1fr 3rem;
   }

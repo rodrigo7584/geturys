@@ -92,6 +92,9 @@
   max-height: 800px;
 }
 @media (max-width: 1400px) {
+  .newsletter-faq {
+    padding: 5rem 0;
+  }
   .newsletter-faq .title {
     font-size: 1.5rem;
   }
@@ -114,5 +117,24 @@
   }
   .newsletter-faq .terms {
     font-size: 1.2rem;
+  }
+}
+@media (max-width: 992px) {
+  .newsletter-faq {
+    padding: 3rem 0;
+  }
+  .newsletter-faq .row {
+    gap: 5rem;
+    grid-template-columns: 1fr;
+  }
+  .newsletter-faq .col-newsletter {
+    order: 2;
+  }
+  .newsletter-faq .accordion .question {
+    grid-template-columns: 1fr 1.5rem;
+  }
+  .newsletter-faq .accordion .question img {
+    height: 1.5rem;
+    width: 1.5rem;
   }
 }

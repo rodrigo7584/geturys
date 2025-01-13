@@ -92,3 +92,13 @@
     /* grid-template-columns: repeat(3, 1fr); */
   }
 }
+
+@media (max-width: 768px) {
+  .our-collection .card-our-collection.card-female,
+  .our-collection .card-our-collection.card-male {
+    grid-column: auto;
+  }
+  .our-collection .cards-our-collection {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

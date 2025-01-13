@@ -76,14 +76,14 @@
 modals css
 */
 
-.modal-seller .modal-seller-container{
+.modal-seller .modal-seller-container {
   display: grid;
   grid-template-columns: 55% 45%;
   min-height: 80vh;
   align-items: center;
   position: relative;
 }
-.modal-seller .col-image{
+.modal-seller .col-image {
   height: 100%;
   width: 100%;
   background: url('../img/contato.png');
@@ -91,10 +91,10 @@ modals css
   background-size: cover;
   background-position: center center;
 }
-.modal-seller .col-content{
+.modal-seller .col-content {
   padding: 5rem;
 }
-.modal-seller .col-content .modal-close{
+.modal-seller .col-content .modal-close {
   position: absolute;
   right: 1rem;
   top: 1rem;
@@ -102,21 +102,21 @@ modals css
   font-size: 1.2rem;
   font-weight: 600;
 }
-.modal-seller .title{
+.modal-seller .title {
   margin-bottom: 1rem;
 }
-.modal-seller .form-modal{
+.modal-seller .form-modal {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-.modal-seller .form-modal-label{
+.modal-seller .form-modal-label {
   font-family: var(--jakarta);
   font-weight: 400;
   font-size: 1.6rem;
   color: #000000;
 }
-.modal-seller .form-modal-input{
+.modal-seller .form-modal-input {
   font-family: var(--jakarta);
   font-weight: 400;
   font-size: 1.6rem;
@@ -125,18 +125,18 @@ modals css
   border-radius: 1rem;
   border: 0.1rem solid #000000;
 }
-.modal-seller .form-modal .btn{
+.modal-seller .form-modal .btn {
   margin-top: 1rem;
   width: 100%;
 }
-.modal-partner .modal-partner-container{
+.modal-partner .modal-partner-container {
   display: grid;
   grid-template-columns: 55% 45%;
   min-height: 80vh;
   align-items: center;
   position: relative;
 }
-.modal-partner .col-image{
+.modal-partner .col-image {
   height: 100%;
   width: 100%;
   background: url('../img/contato.png');
@@ -144,10 +144,10 @@ modals css
   background-size: cover;
   background-position: center center;
 }
-.modal-partner .col-content{
+.modal-partner .col-content {
   padding: 5rem;
 }
-.modal-partner .col-content .modal-close{
+.modal-partner .col-content .modal-close {
   position: absolute;
   right: 1rem;
   top: 1rem;
@@ -155,21 +155,21 @@ modals css
   font-size: 1.2rem;
   font-weight: 600;
 }
-.modal-partner .title{
+.modal-partner .title {
   margin-bottom: 1rem;
 }
-.modal-partner .form-modal{
+.modal-partner .form-modal {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-.modal-partner .form-modal-label{
+.modal-partner .form-modal-label {
   font-family: var(--jakarta);
   font-weight: 400;
   font-size: 1.6rem;
   color: #000000;
 }
-.modal-partner .form-modal-input{
+.modal-partner .form-modal-input {
   font-family: var(--jakarta);
   font-weight: 400;
   font-size: 1.6rem;
@@ -178,19 +178,19 @@ modals css
   border-radius: 1rem;
   border: 0.1rem solid #000000;
 }
-.modal-partner .form-modal .btn{
+.modal-partner .form-modal .btn {
   margin-top: 1rem;
   width: 100%;
 }
 
-.modal-thanks .modal-thanks-container{
+.modal-thanks .modal-thanks-container {
   display: grid;
   grid-template-columns: 55% 45%;
   min-height: 80vh;
   align-items: center;
   position: relative;
 }
-.modal-thanks .col-image{
+.modal-thanks .col-image {
   height: 100%;
   width: 100%;
   background: url('../img/contato.png');
@@ -198,10 +198,10 @@ modals css
   background-size: cover;
   background-position: center center;
 }
-.modal-thanks .col-content{
-  padding:5rem;
+.modal-thanks .col-content {
+  padding: 5rem;
 }
-.modal-thanks .col-content .modal-close{
+.modal-thanks .col-content .modal-close {
   position: absolute;
   right: 1rem;
   top: 1rem;
@@ -209,14 +209,14 @@ modals css
   font-size: 1.2rem;
   font-weight: 600;
 }
-.modal-thanks .title{
+.modal-thanks .title {
   text-align: center;
   margin-bottom: 3rem;
 }
-.modal-thanks .text{
+.modal-thanks .text {
   text-align: center;
 }
-.modal-thanks .btn{
+.modal-thanks .btn {
   text-align: center;
   width: 100%;
 }
@@ -230,7 +230,7 @@ modals css
   .seller-partner .title {
     margin-bottom: 2rem;
   }
-  .seller-partner .text{
+  .seller-partner .text {
     margin-bottom: 2rem;
   }
   .seller-partner .seller-partner-list {
@@ -240,24 +240,24 @@ modals css
   .modal-partner .col-content {
     padding: 3rem;
   }
-  .modal-partner .text{
+  .modal-partner .text {
     font-size: 1.4rem;
   }
   .modal-partner .form-modal-input {
     font-size: 1.4rem;
     padding: 1rem;
   }
-  .modal-seller .col-content{
+  .modal-seller .col-content {
     padding: 3rem;
   }
-  .modal-seller .text{
+  .modal-seller .text {
     font-size: 1.4rem;
   }
   .modal-seller .form-modal-input {
     font-size: 1.4rem;
     padding: 1rem;
   }
-  .modal-thanks .col-content{
+  .modal-thanks .col-content {
     padding: 3rem;
   }
 }
@@ -270,5 +270,44 @@ modals css
   }
   .modal-partner .form-modal-input {
     font-size: 1.2rem;
+  }
+}
+@media (max-width: 992px) {
+  .seller-partner {
+    padding: 3rem 0;
+  }
+  .modal-partner .modal-partner-container {
+    grid-template-columns: 100%;
+  }
+  .modal-partner .modal-partner-container {
+    min-height: auto;
+  }
+  .modal-partner .col-image {
+    display: none;
+  }
+  .modal-seller .modal-seller-container {
+    grid-template-columns: 100%;
+  }
+  .modal-seller .modal-seller-container {
+    min-height: auto;
+  }
+  .modal-seller .col-image {
+    display: none;
+  }
+  .modal-thanks .modal-thanks-container {
+    grid-template-columns: 100%;
+  }
+  .modal-thanks .modal-thanks-container {
+    min-height: auto;
+  }
+  .modal-thanks .col-image {
+    display: none;
+  }
+  .seller-partner .seller-partner-content {
+    width: 35rem;
+  }
+  .seller-partner .seller-partner-item {
+    grid-template-columns: 2rem 1fr;
+    gap: 1rem;
   }
 }

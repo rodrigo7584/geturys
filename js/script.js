@@ -46,10 +46,10 @@ const swiperNewCollection = new Swiper('.swiper-new-collection .swiper', {
     prevEl: '.swiper-new-collection .button-prev'
   },
   breakpoints: {
-    768: {
-      slidesPerView: 3
+    577: {
+      slidesPerView: 2
     },
-    992: {
+    768: {
       slidesPerView: 3
     }
   }
@@ -75,10 +75,10 @@ const swiperTestimonials = new Swiper('.swiper-testimonials .swiper', {
     prevEl: '.swiper-testimonials .button-prev'
   },
   breakpoints: {
-    992: {
+    769: {
       slidesPerView: 2
     },
-    1200: {
+    2001: {
       slidesPerView: 3
     }
   }
@@ -108,6 +108,15 @@ var swiperProductDetailsPhotos = new Swiper('.swiper-product-details .swiper-pho
   }
 })
 
+var swiperListTypes = new Swiper('.swiper-list-types .swiper', {
+  slidesPerView: 'auto',
+  spaceBetween: 20,
+  breakpoints: {
+    769: {
+      slidesPerView: 6
+    }
+  }
+})
 /*
 END SWIPERS
 */
