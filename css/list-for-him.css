@@ -3,11 +3,41 @@
 }
 .list .for-him .title {
   margin-bottom: 4rem;
-}
-.list .for-him .cards {
+} 
+.list .for-him .swiper-for-him {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 3rem;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+}
+.list .for-him .swiper-for-him .swiper {
+  width: 100%;
+  grid-column: 2/3;
+}
+.list .for-him .swiper-for-him .swiper-slide {
+  padding: 1rem;
+}
+
+.list .for-him .swiper-for-him .button-next,
+.list .for-him .swiper-for-him .button-prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 2rem;
+}
+.list .for-him .swiper-for-him .button-next:hover,
+.list .for-him .swiper-for-him .button-prev:hover {
+  cursor: pointer;
+}
+.list .for-him .swiper-for-him .button-next .icon,
+.list .for-him .swiper-for-him .button-prev .icon {
+  width: 1rem;
+}
+.list .for-him .swiper-for-him .button-next .icon {
+  transform: rotate(180deg); 
+}
+.list .for-him .swiper-for-him .swiper-button-lock {
+  display: none;
 }
 @media (max-width: 1400px) {
   .list .for-him {
@@ -15,5 +45,10 @@
   }
   .list .for-him .title {
     margin-bottom: 2rem;
+  }
+}
+@media (max-width: 992px) {
+  .list .for-him {
+    padding: 3rem 0;
   }
 }

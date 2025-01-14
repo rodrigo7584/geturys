@@ -137,9 +137,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 3rem;
+  padding: 1rem 1rem;
   border-radius: 5rem;
   border: 0.1rem solid #d6d6d6;
+  width: 12rem;
 }
 .card-product .btn-chart:hover {
   cursor: pointer;
@@ -151,5 +152,28 @@
 @media (max-width: 1400px) {
   .card-product .card-top .product-thumb {
     margin-bottom: 0rem;
+  }
+}
+@media (max-width: 1200px) {
+.card-product .card-top {
+  padding: 2rem 2rem;
+}
+.card-product .card-top .btn-like {
+  margin-bottom: 1rem;
+}
+
+}
+@media (max-width: 992px) {
+  .card-product .product-title {
+    font-size: 1.6rem;
+  }
+  .card-product .card-product-footer {
+    gap: 1rem;
+  }
+  .card-product .btn-buy {
+    font-size: 1.2rem;
+  }
+  .card-product .btn-chart .icon {
+    width: 2rem;
   }
 }

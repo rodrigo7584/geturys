@@ -4,10 +4,40 @@
 .product .new-collection .title {
   margin-bottom: 4rem;
 }
-.product .new-collection .cards {
+.product .new-collection .swiper-new-collection {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 3rem;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+}
+.product .new-collection .swiper-new-collection .swiper {
+  width: 100%;
+  grid-column: 2/3;
+}
+.product .new-collection .swiper-new-collection .swiper-slide {
+  padding: 1rem;
+}
+
+.product .new-collection .swiper-new-collection .button-next,
+.product .new-collection .swiper-new-collection .button-prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 2rem;
+}
+.product .new-collection .swiper-new-collection .button-next:hover,
+.product .new-collection .swiper-new-collection .button-prev:hover {
+  cursor: pointer;
+}
+.product .new-collection .swiper-new-collection .button-next .icon,
+.product .new-collection .swiper-new-collection .button-prev .icon {
+  width: 1rem;
+}
+.product .new-collection .swiper-new-collection .button-next .icon {
+  transform: rotate(180deg); 
+}
+.product .new-collection .swiper-new-collection .swiper-button-lock {
+  display: none;
 }
 @media (max-width: 1400px) {
   .product .new-collection {

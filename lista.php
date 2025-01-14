@@ -63,11 +63,30 @@
         <h3 class="title title-detail">
           Para eles
         </h3>
-        <div class="cards">
-          <?php include './src/card-product.php'?>
-          <?php include './src/card-product.php'?>
-          <?php include './src/card-product.php'?>
-          <?php include './src/card-product.php'?>
+        <div class="swiper-for-him">
+          <div class="button-next">
+            <img src="./img/arrow.svg" alt="" class="icon">
+          </div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <?php include './src/card-product.php'?>
+              </div>
+              <div class="swiper-slide">
+                <?php include './src/card-product.php'?>
+              </div>
+              <div class="swiper-slide">
+                <?php include './src/card-product.php'?>
+              </div>
+              <div class="swiper-slide">
+                <?php include './src/card-product.php'?>
+              </div>
+
+            </div>
+          </div>
+          <div class="button-prev">
+            <img src="./img/arrow.svg" alt="" class="icon">
+          </div>
         </div>
       </div>
     </div>
@@ -81,11 +100,29 @@
         <h3 class="title title-detail">
           Perfeito para presentear
         </h3>
-        <div class="cards">
-          <?php include './src/card-product.php'?>
-          <?php include './src/card-product.php'?>
-          <?php include './src/card-product.php'?>
-          <?php include './src/card-product.php'?>
+        <div class="swiper-gift">
+          <div class="button-next">
+            <img src="./img/arrow.svg" alt="" class="icon">
+          </div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <?php include './src/card-product.php'?>
+              </div>
+              <div class="swiper-slide">
+                <?php include './src/card-product.php'?>
+              </div>
+              <div class="swiper-slide">
+                <?php include './src/card-product.php'?>
+              </div>
+              <div class="swiper-slide">
+                <?php include './src/card-product.php'?>
+              </div>
+            </div>
+          </div>
+          <div class="button-prev">
+            <img src="./img/arrow.svg" alt="" class="icon">
+          </div>
         </div>
       </div>
     </div>
@@ -97,11 +134,29 @@
         <h3 class="title title-detail">
           Para quem tem estilo
         </h3>
-        <div class="cards">
-          <?php include './src/card-product.php'?>
-          <?php include './src/card-product.php'?>
-          <?php include './src/card-product.php'?>
-          <?php include './src/card-product.php'?>
+        <div class="swiper-style">
+          <div class="button-next">
+            <img src="./img/arrow.svg" alt="" class="icon">
+          </div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <?php include './src/card-product.php'?>
+              </div>
+              <div class="swiper-slide">
+                <?php include './src/card-product.php'?>
+              </div>
+              <div class="swiper-slide">
+                <?php include './src/card-product.php'?>
+              </div>
+              <div class="swiper-slide">
+                <?php include './src/card-product.php'?>
+              </div>
+            </div>
+          </div>
+          <div class="button-prev">
+            <img src="./img/arrow.svg" alt="" class="icon">
+          </div>
         </div>
       </div>
     </div>

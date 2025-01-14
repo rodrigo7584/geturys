@@ -14,10 +14,40 @@
 .new-collection-login .title-detail::before {
   background: #ffffff;
 }
-.new-collection-login .cards {
+.new-collection-login .swiper-new-collection-login {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 3rem;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+}
+.new-collection-login .swiper-new-collection-login .swiper {
+  width: 100%;
+  grid-column: 2/3;
+}
+.new-collection-login .swiper-new-collection-login .swiper-slide {
+  padding: 1rem;
+}
+
+.new-collection-login .swiper-new-collection-login .button-next,
+.new-collection-login .swiper-new-collection-login .button-prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 2rem;
+}
+.new-collection-login .swiper-new-collection-login .button-next:hover,
+.new-collection-login .swiper-new-collection-login .button-prev:hover {
+  cursor: pointer;
+}
+.new-collection-login .swiper-new-collection-login .button-next .icon,
+.new-collection-login .swiper-new-collection-login .button-prev .icon {
+  width: 1rem;
+}
+.new-collection-login .swiper-new-collection-login .button-next .icon {
+  transform: rotate(180deg); 
+}
+.new-collection-login .swiper-new-collection-login .swiper-button-lock {
+  display: none;
 }
 @media (max-width: 1400px) {
   .new-collection-login {

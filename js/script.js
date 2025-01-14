@@ -37,13 +37,13 @@ END RESOLUTION
 /*
 SWIPERS
 */
-const swiperNewCollection = new Swiper('.swiper-new-collection .swiper', {
+const swiperHomeNewCollection = new Swiper('.home .swiper-new-collection .swiper', {
   loop: true,
   slidesPerView: 1,
   spaceBetween: 25,
   navigation: {
-    nextEl: '.swiper-new-collection .button-next',
-    prevEl: '.swiper-new-collection .button-prev'
+    nextEl: '.home .swiper-new-collection .button-next',
+    prevEl: '.home .swiper-new-collection .button-prev'
   },
   breakpoints: {
     577: {
@@ -90,24 +90,25 @@ const swiperListHero = new Swiper('.swiper-list-hero .swiper', {
 })
 
 var swiperProductDetailsThumbs = new Swiper('.swiper-product-details .swiper-thumbs .swiper', {
-  spaceBetween: 15,
-  slidesPerView: 4,
-  freeMode: true,
-  direction: 'vertical',
-  watchSlidesProgress: true
-})
-
-var swiperProductDetailsPhotos = new Swiper('.swiper-product-details .swiper-photos .swiper', {
-  // allowTouchMove: false,
-  thumbs: {
-    swiper: swiperProductDetailsThumbs
-  },
-  navigation: {
-    nextEl: '.swiper-product-details .swiper-thumbs .button-prev',
-    prevEl: '.swiper-product-details .swiper-thumbs .button-next'
-  }
-})
-
+    spaceBetween: 15,
+    slidesPerView: 4,
+    freeMode: true,
+    direction: 'vertical',
+    watchSlidesProgress: true,
+      })
+  
+  var swiperProductDetailsPhotos = new Swiper('.swiper-product-details .swiper-photos .swiper', {
+    // allowTouchMove: false,
+    thumbs: {
+      swiper: swiperProductDetailsThumbs
+    },
+    direction: 'vertical',
+    navigation: {
+      nextEl: '.swiper-product-details .swiper-thumbs .button-prev',
+      prevEl: '.swiper-product-details .swiper-thumbs .button-next'
+    }
+  })
+  
 var swiperListTypes = new Swiper('.swiper-list-types .swiper', {
   slidesPerView: 'auto',
   spaceBetween: 20,
@@ -117,8 +118,28 @@ var swiperListTypes = new Swiper('.swiper-list-types .swiper', {
     }
   }
 })
+const swiperDiscover = new Swiper('.swiper-discover .swiper', {
+  loop: true,
+  slidesPerView: 1,
+  navigation: {
+    nextEl: '.swiper-discover .button-next',
+    prevEl: '.swiper-discover .button-prev'
+  },
+  breakpoints: {
+    577: {
+      slidesPerView: 2
+    },
+    769: {
+      slidesPerView: 2
+    },
+    993: {
+      loop: false,
+      slidesPerView: 4
+    }
+  }
+})
 const swiperForHer = new Swiper('.swiper-for-her .swiper', {
-  loop: false,
+  loop: true,
   slidesPerView: 1,
   navigation: {
     nextEl: '.swiper-for-her .button-next',
@@ -128,7 +149,111 @@ const swiperForHer = new Swiper('.swiper-for-her .swiper', {
     577: {
       slidesPerView: 2
     },
-    768: {
+    769: {
+      slidesPerView: 3
+    },
+    993: {
+      loop: false,
+      slidesPerView: 4
+    }
+  }
+})
+const swiperForHim = new Swiper('.swiper-for-him .swiper', {
+  loop: true,
+  slidesPerView: 1,
+  navigation: {
+    nextEl: '.swiper-for-him .button-next',
+    prevEl: '.swiper-for-him .button-prev'
+  },
+  breakpoints: {
+    577: {
+      slidesPerView: 2
+    },
+    769: {
+      slidesPerView: 3
+    },
+    993: {
+      loop: false,
+      slidesPerView: 4
+    }
+  }
+})
+const swiperNewCollectionLogin = new Swiper('.swiper-new-collection-login .swiper', {
+  loop: true,
+  slidesPerView: 1,
+  navigation: {
+    nextEl: '.swiper-new-collection-login .button-next',
+    prevEl: '.swiper-new-collection-login .button-prev'
+  },
+  breakpoints: {
+    577: {
+      slidesPerView: 2
+    },
+    769: {
+      slidesPerView: 3
+    },
+    993: {
+      loop: false,
+      slidesPerView: 4
+    }
+  }
+})
+const swiperGift = new Swiper('.swiper-gift .swiper', {
+  loop: true,
+  slidesPerView: 1,
+  navigation: {
+    nextEl: '.swiper-gift .button-next',
+    prevEl: '.swiper-gift .button-prev'
+  },
+  breakpoints: {
+    577: {
+      slidesPerView: 2
+    },
+    769: {
+      slidesPerView: 3
+    },
+    993: {
+      loop: false,
+      slidesPerView: 4
+    }
+  }
+})
+const swiperStyle= new Swiper('.swiper-style .swiper', {
+  loop: true,
+  slidesPerView: 1,
+  navigation: {
+    nextEl: '.swiper-style .button-next',
+    prevEl: '.swiper-style .button-prev'
+  },
+  breakpoints: {
+    577: {
+      slidesPerView: 2
+    },
+    769: {
+      slidesPerView: 3
+    },
+    993: {
+      loop: false,
+      slidesPerView: 4
+    }
+  }
+})
+const swiperProductNewCollection = new Swiper('.product .swiper-new-collection .swiper', {
+  loop: true,
+  slidesPerView: 1,
+  navigation: {
+    nextEl: '.product .swiper-new-collection .button-next',
+    prevEl: '.product .swiper-new-collection .button-prev'
+  },
+  breakpoints: {
+    577: {
+      slidesPerView: 2
+    },
+    769: {
+      slidesPerView: 3
+    },
+    993: {
+      loop: false,
       slidesPerView: 4
     }
   }

@@ -4,24 +4,8 @@
 .product .product-details .row {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 0 5rem ;
+  gap: 5rem;
   width: 100%;
-}
-.product .product-details .col-slider{
-  grid-column: 1/2;
-  grid-row: 1/4;
-}
-.product .product-details .col-content-top{
-  grid-column: 2/3;
-  grid-row: 1/2;
-}
-.product .product-details .col-content-middle{
-  grid-column: 2/3;
-  grid-row: 2/3;
-}
-.product .product-details .col-content-bottom{
-  grid-column: 2/3;
-  grid-row: 3/4;
 }
 .product .product-details .swiper-product-details {
   display: grid;
@@ -193,7 +177,6 @@
 .product .product-details .payment-methods .more-methods .icon {
   filter: var(--svg-gray);
 }
-
 .product .product-details .product-description .text {
   font-size: 1.6rem;
   line-height: 1.7;
@@ -345,126 +328,20 @@
     grid-template-columns: 7rem 30rem;
   }
   .product .product-details .swiper-photos .swiper {
-    height: 45rem;
+    height: 40rem;
   }
   .product .product-details .payment-methods .more-methods {
     padding: 1rem 1rem;
   }
 }
 @media (max-width: 992px) {
-  .product .product-details {
-    padding: 3rem 0;
-  }
   .product .product-details .row {
-    gap: 3rem;
-    width: 100%;
+    grid-template-columns: 1fr;
 }
-.product .product-details .product-title-score {
-  margin-bottom: 0rem;
-}
-.product .product-details .col-content-top{
-  grid-column: 1/3;
-  grid-row: 1/2;
-}
-.product .product-details .col-slider{
-  grid-column: 1/2;
-  grid-row: 2/3;
-}
-.product .product-details .col-content-middle{
-  grid-column: 2/3;
-  grid-row: 2/3;
-}
-.product .product-details .col-content-bottom{
-  grid-column: 1/3;
-  grid-row: 3/4;
-}
-.product .product-details .swiper-product-details {
-  grid-template-columns: 8rem 28rem;
-}
-.product .product-details .swiper-photos .swiper {
-  height: 40rem;
-}
-.product .product-details .swiper-thumbs .button-next, .product .product-details .swiper-thumbs .button-prev {
-  height: 2rem;
-}
-.product .product-details .swiper-product-details {
-  gap: 2rem;
-}
-.product .product-details .payment-methods {
+/* .product .product-details .payment-methods {
   grid-template-columns:1fr;
 }
 .product .product-details .payment-methods .credit-card {
   justify-self: flex-start;
+} */
 }
-}
-@media (max-width: 768px) {
-  .product .product-details .row {
-    gap: 2rem 0;
-    grid-template-columns: 1fr;
-  }
-  .product .product-details .col-content-top{
-    grid-column: 1/2;
-    grid-row: 1/2;
-  }
-  .product .product-details .col-slider{
-    grid-column: 1/2;
-    grid-row: 2/3;
-  }
-  .product .product-details .col-content-middle{
-    grid-column:1/2;
-    grid-row: 3/4;
-  }
-  .product .product-details .col-content-bottom{
-    grid-column: 1/2;
-    grid-row: 4/5;
-  }
-  .product .product-details .swiper-product-details {
-    grid-template-columns: 8rem 1fr;
-}
-.product .product-details .swiper-photos .swiper {
-  height: 34rem;
-}
-.product .product-details .payment-methods .pix {
-  width: 14rem;
-}
-.product .product-details .payment-methods .pix .price {
-  font-size: 2rem;
-}
-.product .product-details .payment-methods .credit-card {
-  width: 14rem;
-}
-.product .product-details .payment-methods .credit-card .price {
-  font-size: 2rem;
-}
-.product .product-details .payment-methods .credit-card .method {
-  font-size: 1.2rem;}
-  .product .product-details .payment-methods {
-    grid-template-columns: repeat(2, 1fr);
-}
-.product .product-details .payment-methods .credit-card {
-  justify-self: flex-end;
-}
-.product .product-details .payment-methods .more-methods {
-  grid-column: 1/3;
-}
-
-.product .product-details .btn-social-share  {
-  font-size: 1.4rem;
-}
-.product .product-details .control-buttons .btn-buy
-   {
-  font-size: 1.4rem;
-}
-.product .product-details .shipping-form .btn-search
- {
-  font-size: 1.4rem;
-}
-
-.product .product-details .shipping-title   {
-  font-size: 1.4rem;
-}
-.product .product-details .control-buttons .btn-chart .icon {
-  width: 26px;
-}
-}
-

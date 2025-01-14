@@ -17,3 +17,23 @@
     height: 43rem;
   }
 }
+@media (max-width: 992px) {
+  .list .hero .swiper-slide {
+    height: 30rem;
+  }
+}
+@media (max-width: 768px) {
+  .list .hero .swiper-slide {
+    height: 25rem;
+  }
+}
+@media (max-width: 576px) {
+  .list .hero .swiper-slide {
+      height: 20rem;
+  }
+}
+@media (max-width: 400px) {
+  .list .hero .swiper-slide {
+      height: 18rem;
+  }
+}

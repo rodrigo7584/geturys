@@ -4,10 +4,40 @@
 .list .style .title {
   margin-bottom: 4rem;
 }
-.list .style .cards {
+.list .style .swiper-style {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 3rem;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+}
+.list .style .swiper-style .swiper {
+  width: 100%;
+  grid-column: 2/3;
+}
+.list .style .swiper-style .swiper-slide {
+  padding: 1rem;
+}
+
+.list .style .swiper-style .button-next,
+.list .style .swiper-style .button-prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 2rem;
+}
+.list .style .swiper-style .button-next:hover,
+.list .style .swiper-style .button-prev:hover {
+  cursor: pointer;
+}
+.list .style .swiper-style .button-next .icon,
+.list .style .swiper-style .button-prev .icon {
+  width: 1rem;
+}
+.list .style .swiper-style .button-next .icon {
+  transform: rotate(180deg); 
+}
+.list .style .swiper-style .swiper-button-lock {
+  display: none;
 }
 @media (max-width: 1400px) {
   .list .style {
@@ -15,5 +45,10 @@
   }
   .list .style .title {
     margin-bottom: 2rem;
+  }
+}
+@media (max-width: 992px) {
+  .list .style {
+    padding: 3rem 0;
   }
 }

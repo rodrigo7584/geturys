@@ -32,6 +32,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 2rem;
 }
 .product .product-features .table-item:nth-child(even) {
   background: #f9f9f9;
@@ -46,6 +47,7 @@
 .product .product-features .table-description {
   color: #808080;
   font-weight: 400;
+  text-align: right;
 }
 @media (max-width: 1400px) {
   .product .product-features {
@@ -60,4 +62,25 @@
   .product .product-features .table-feature, .product .product-features .table-description {
     font-size: 1.4rem;
   }
+}
+
+@media (max-width: 992px) {
+  .product .product-features {
+    padding: 3rem 0;
+  }
+  .product .product-features .product-features-title {
+    font-size: 1.4rem;
+}
+
+}
+@media (max-width: 768px) {
+  .product .product-features .row {
+    padding: 2rem;
+}
+.product .product-features .table-feature,
+.product .product-features .table-description {
+  font-family: var(--jakarta);
+  font-size: 1.2rem;
+}
+
 }

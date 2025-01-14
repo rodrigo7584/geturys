@@ -55,7 +55,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-content">
+        <div class="col col-content-top">
           <div class="product-title-score">
             <h1 class="title">Óculos De Sol Geturys Masculino</h1>
             <button class="btn-like">
@@ -72,6 +72,8 @@
               <span class="number">(5.0)</span>
             </div>
           </div>
+        </div>
+        <div class="col col-content-middle">
           <div class="payment-methods">
             <div class="pix">
               <img src="./img/pix.svg" alt="" class="icon">
@@ -103,6 +105,8 @@
             </p>
             <p class="text">Categoria: <span class="category">Óculos Masculino</span></p>
           </div>
+        </div>
+        <div class="col col-content-bottom">
           <div class="control-buttons">
             <div class="quantity">
               <button class="btn-remove">
@@ -181,156 +185,299 @@
     <div class="container">
       <div class="row">
         <h2 class="title-medium title-detail">Descubra outros produtos da Geturys</h2>
-        <div class="cards">
-          <div class="product-card-big-thumb">
-
-            <div class="thumb">
-              <img src="./img/mais-produtos-1.png" alt="" class="photo">
-            </div>
-
-            <h3 class="product-title">Óculos De Sol Geturys Masculino</h3>
-
-            <div class="score">
-              <div class="stars">
-                <img src="./img/star-2.svg" alt="" class="icon">
-                <img src="./img/star-2.svg" alt="" class="icon">
-                <img src="./img/star-2.svg" alt="" class="icon">
-                <img src="./img/star-2.svg" alt="" class="icon">
-                <img src="./img/star-2.svg" alt="" class="icon">
-              </div>
-              <span class="number">(5.0)</span>
-            </div>
-
-            <div class="prices">
-              <div class="method-1">
-                <span class="price">
-                  R$ 149,00
-                </span>
-                <span class="description">
-                  no PIX
-                </span>
-              </div>
-              <span class="method-2">
-                no cartão em até -<span class="installments"> 6x </span>
-                de -
-                <span class="installment-price">R$24,84</span>
-                sem juros
-              </span>
-            </div>
-
+        <div class="swiper-discover">
+          <div class="button-next">
+            <img src="./img/arrow.svg" alt="" class="icon">
           </div>
-          <div class="product-card-big-thumb">
-
-            <div class="thumb">
-              <img src="./img/mais-produtos-1.png" alt="" class="photo">
-            </div>
-
-            <h3 class="product-title">Óculos De Sol Geturys Masculino</h3>
-
-            <div class="score">
-              <div class="stars">
-                <img src="./img/star-2.svg" alt="" class="icon">
-                <img src="./img/star-2.svg" alt="" class="icon">
-                <img src="./img/star-2.svg" alt="" class="icon">
-                <img src="./img/star-2.svg" alt="" class="icon">
-                <img src="./img/star-2.svg" alt="" class="icon">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="product-card-big-thumb">
+                  <div class="thumb">
+                    <img src="./img/mais-produtos-1.png" alt="" class="photo">
+                  </div>
+                  <h3 class="product-title">Óculos De Sol Geturys Masculino</h3>
+                  <div class="score">
+                    <div class="stars">
+                      <img src="./img/star-2.svg" alt="" class="icon">
+                      <img src="./img/star-2.svg" alt="" class="icon">
+                      <img src="./img/star-2.svg" alt="" class="icon">
+                      <img src="./img/star-2.svg" alt="" class="icon">
+                      <img src="./img/star-2.svg" alt="" class="icon">
+                    </div>
+                    <span class="number">(5.0)</span>
+                  </div>
+                  <div class="prices">
+                    <div class="method-1">
+                      <span class="price">
+                        R$ 149,00
+                      </span>
+                      <span class="description">
+                        no PIX
+                      </span>
+                    </div>
+                    <span class="method-2">
+                      no cartão em até -<span class="installments"> 6x </span>
+                      de -
+                      <span class="installment-price">R$24,84</span>
+                      sem juros
+                    </span>
+                  </div>
+                </div>
               </div>
-              <span class="number">(5.0)</span>
-            </div>
-
-            <div class="prices">
-              <div class="method-1">
-                <span class="price">
-                  R$ 149,00
-                </span>
-                <span class="description">
-                  no PIX
-                </span>
+              <div class="swiper-slide">
+                <div class="product-card-big-thumb">
+                  <div class="thumb">
+                    <img src="./img/mais-produtos-1.png" alt="" class="photo">
+                  </div>
+                  <h3 class="product-title">Óculos De Sol Geturys Masculino</h3>
+                  <div class="score">
+                    <div class="stars">
+                      <img src="./img/star-2.svg" alt="" class="icon">
+                      <img src="./img/star-2.svg" alt="" class="icon">
+                      <img src="./img/star-2.svg" alt="" class="icon">
+                      <img src="./img/star-2.svg" alt="" class="icon">
+                      <img src="./img/star-2.svg" alt="" class="icon">
+                    </div>
+                    <span class="number">(5.0)</span>
+                  </div>
+                  <div class="prices">
+                    <div class="method-1">
+                      <span class="price">
+                        R$ 149,00
+                      </span>
+                      <span class="description">
+                        no PIX
+                      </span>
+                    </div>
+                    <span class="method-2">
+                      no cartão em até -<span class="installments"> 6x </span>
+                      de -
+                      <span class="installment-price">R$24,84</span>
+                      sem juros
+                    </span>
+                  </div>
+                </div>
               </div>
-              <span class="method-2">
-                no cartão em até -<span class="installments"> 6x </span>
-                de -
-                <span class="installment-price">R$24,84</span>
-                sem juros
-              </span>
-            </div>
+              <div class="swiper-slide">
+                <div class="product-card-big-thumb">
+                  <div class="thumb">
+                    <img src="./img/mais-produtos-1.png" alt="" class="photo">
+                  </div>
+                  <h3 class="product-title">Óculos De Sol Geturys Masculino</h3>
+                  <div class="score">
+                    <div class="stars">
+                      <img src="./img/star-2.svg" alt="" class="icon">
+                      <img src="./img/star-2.svg" alt="" class="icon">
+                      <img src="./img/star-2.svg" alt="" class="icon">
+                      <img src="./img/star-2.svg" alt="" class="icon">
+                      <img src="./img/star-2.svg" alt="" class="icon">
+                    </div>
+                    <span class="number">(5.0)</span>
+                  </div>
+                  <div class="prices">
+                    <div class="method-1">
+                      <span class="price">
+                        R$ 149,00
+                      </span>
+                      <span class="description">
+                        no PIX
+                      </span>
+                    </div>
+                    <span class="method-2">
+                      no cartão em até -<span class="installments"> 6x </span>
+                      de -
+                      <span class="installment-price">R$24,84</span>
+                      sem juros
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product-card-big-thumb">
+                  <div class="thumb">
+                    <img src="./img/mais-produtos-1.png" alt="" class="photo">
+                  </div>
+                  <h3 class="product-title">Óculos De Sol Geturys Masculino</h3>
+                  <div class="score">
+                    <div class="stars">
+                      <img src="./img/star-2.svg" alt="" class="icon">
+                      <img src="./img/star-2.svg" alt="" class="icon">
+                      <img src="./img/star-2.svg" alt="" class="icon">
+                      <img src="./img/star-2.svg" alt="" class="icon">
+                      <img src="./img/star-2.svg" alt="" class="icon">
+                    </div>
+                    <span class="number">(5.0)</span>
+                  </div>
+                  <div class="prices">
+                    <div class="method-1">
+                      <span class="price">
+                        R$ 149,00
+                      </span>
+                      <span class="description">
+                        no PIX
+                      </span>
+                    </div>
+                    <span class="method-2">
+                      no cartão em até -<span class="installments"> 6x </span>
+                      de -
+                      <span class="installment-price">R$24,84</span>
+                      sem juros
+                    </span>
+                  </div>
+                </div>
+              </div>
 
+            </div>
           </div>
-          <div class="product-card-big-thumb">
-
-            <div class="thumb">
-              <img src="./img/mais-produtos-1.png" alt="" class="photo">
-            </div>
-
-            <h3 class="product-title">Óculos De Sol Geturys Masculino</h3>
-
-            <div class="score">
-              <div class="stars">
-                <img src="./img/star-2.svg" alt="" class="icon">
-                <img src="./img/star-2.svg" alt="" class="icon">
-                <img src="./img/star-2.svg" alt="" class="icon">
-                <img src="./img/star-2.svg" alt="" class="icon">
-                <img src="./img/star-2.svg" alt="" class="icon">
-              </div>
-              <span class="number">(5.0)</span>
-            </div>
-
-            <div class="prices">
-              <div class="method-1">
-                <span class="price">
-                  R$ 149,00
-                </span>
-                <span class="description">
-                  no PIX
-                </span>
-              </div>
-              <span class="method-2">
-                no cartão em até -<span class="installments"> 6x </span>
-                de -
-                <span class="installment-price">R$24,84</span>
-                sem juros
-              </span>
-            </div>
-
-          </div>
-          <div class="product-card-big-thumb">
-
-            <div class="thumb">
-              <img src="./img/mais-produtos-1.png" alt="" class="photo">
-            </div>
-
-            <h3 class="product-title">Óculos De Sol Geturys Masculino</h3>
-
-            <div class="score">
-              <div class="stars">
-                <img src="./img/star-2.svg" alt="" class="icon">
-                <img src="./img/star-2.svg" alt="" class="icon">
-                <img src="./img/star-2.svg" alt="" class="icon">
-                <img src="./img/star-2.svg" alt="" class="icon">
-                <img src="./img/star-2.svg" alt="" class="icon">
-              </div>
-              <span class="number">(5.0)</span>
-            </div>
-
-            <div class="prices">
-              <div class="method-1">
-                <span class="price">
-                  R$ 149,00
-                </span>
-                <span class="description">
-                  no PIX
-                </span>
-              </div>
-              <span class="method-2">
-                no cartão em até -<span class="installments"> 6x </span>
-                de -
-                <span class="installment-price">R$24,84</span>
-                sem juros
-              </span>
-            </div>
-
+          <div class="button-prev">
+            <img src="./img/arrow.svg" alt="" class="icon">
           </div>
         </div>
+        <!-- <div class="cards">
+          <div class="product-card-big-thumb">
+            <div class="thumb">
+              <img src="./img/mais-produtos-1.png" alt="" class="photo">
+            </div>
+            <h3 class="product-title">Óculos De Sol Geturys Masculino</h3>
+            <div class="score">
+              <div class="stars">
+                <img src="./img/star-2.svg" alt="" class="icon">
+                <img src="./img/star-2.svg" alt="" class="icon">
+                <img src="./img/star-2.svg" alt="" class="icon">
+                <img src="./img/star-2.svg" alt="" class="icon">
+                <img src="./img/star-2.svg" alt="" class="icon">
+              </div>
+              <span class="number">(5.0)</span>
+            </div>
+            <div class="prices">
+              <div class="method-1">
+                <span class="price">
+                  R$ 149,00
+                </span>
+                <span class="description">
+                  no PIX
+                </span>
+              </div>
+              <span class="method-2">
+                no cartão em até -<span class="installments"> 6x </span>
+                de -
+                <span class="installment-price">R$24,84</span>
+                sem juros
+              </span>
+            </div>
+          </div>
+          <div class="product-card-big-thumb">
+            <div class="thumb">
+              <img src="./img/mais-produtos-1.png" alt="" class="photo">
+            </div>
+
+            <h3 class="product-title">Óculos De Sol Geturys Masculino</h3>
+
+            <div class="score">
+              <div class="stars">
+                <img src="./img/star-2.svg" alt="" class="icon">
+                <img src="./img/star-2.svg" alt="" class="icon">
+                <img src="./img/star-2.svg" alt="" class="icon">
+                <img src="./img/star-2.svg" alt="" class="icon">
+                <img src="./img/star-2.svg" alt="" class="icon">
+              </div>
+              <span class="number">(5.0)</span>
+            </div>
+
+            <div class="prices">
+              <div class="method-1">
+                <span class="price">
+                  R$ 149,00
+                </span>
+                <span class="description">
+                  no PIX
+                </span>
+              </div>
+              <span class="method-2">
+                no cartão em até -<span class="installments"> 6x </span>
+                de -
+                <span class="installment-price">R$24,84</span>
+                sem juros
+              </span>
+            </div>
+
+          </div>
+          <div class="product-card-big-thumb">
+
+            <div class="thumb">
+              <img src="./img/mais-produtos-1.png" alt="" class="photo">
+            </div>
+
+            <h3 class="product-title">Óculos De Sol Geturys Masculino</h3>
+
+            <div class="score">
+              <div class="stars">
+                <img src="./img/star-2.svg" alt="" class="icon">
+                <img src="./img/star-2.svg" alt="" class="icon">
+                <img src="./img/star-2.svg" alt="" class="icon">
+                <img src="./img/star-2.svg" alt="" class="icon">
+                <img src="./img/star-2.svg" alt="" class="icon">
+              </div>
+              <span class="number">(5.0)</span>
+            </div>
+
+            <div class="prices">
+              <div class="method-1">
+                <span class="price">
+                  R$ 149,00
+                </span>
+                <span class="description">
+                  no PIX
+                </span>
+              </div>
+              <span class="method-2">
+                no cartão em até -<span class="installments"> 6x </span>
+                de -
+                <span class="installment-price">R$24,84</span>
+                sem juros
+              </span>
+            </div>
+
+          </div>
+          <div class="product-card-big-thumb">
+
+            <div class="thumb">
+              <img src="./img/mais-produtos-1.png" alt="" class="photo">
+            </div>
+
+            <h3 class="product-title">Óculos De Sol Geturys Masculino</h3>
+
+            <div class="score">
+              <div class="stars">
+                <img src="./img/star-2.svg" alt="" class="icon">
+                <img src="./img/star-2.svg" alt="" class="icon">
+                <img src="./img/star-2.svg" alt="" class="icon">
+                <img src="./img/star-2.svg" alt="" class="icon">
+                <img src="./img/star-2.svg" alt="" class="icon">
+              </div>
+              <span class="number">(5.0)</span>
+            </div>
+
+            <div class="prices">
+              <div class="method-1">
+                <span class="price">
+                  R$ 149,00
+                </span>
+                <span class="description">
+                  no PIX
+                </span>
+              </div>
+              <span class="method-2">
+                no cartão em até -<span class="installments"> 6x </span>
+                de -
+                <span class="installment-price">R$24,84</span>
+                sem juros
+              </span>
+            </div>
+
+          </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -476,11 +623,30 @@
         <h3 class="title title-detail">
           Perfeito para presentear
         </h3>
-        <div class="cards">
-          <?php include './src/card-product.php'?>
-          <?php include './src/card-product.php'?>
-          <?php include './src/card-product.php'?>
-          <?php include './src/card-product.php'?>
+        <div class="swiper-new-collection">
+          <div class="button-next">
+            <img src="./img/arrow.svg" alt="" class="icon">
+          </div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <?php include './src/card-product.php'?>
+              </div>
+              <div class="swiper-slide">
+                <?php include './src/card-product.php'?>
+              </div>
+              <div class="swiper-slide">
+                <?php include './src/card-product.php'?>
+              </div>
+              <div class="swiper-slide">
+                <?php include './src/card-product.php'?>
+              </div>
+
+            </div>
+          </div>
+          <div class="button-prev">
+            <img src="./img/arrow.svg" alt="" class="icon">
+          </div>
         </div>
       </div>
     </div>

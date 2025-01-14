@@ -5,11 +5,30 @@
       <h3 class="title title-detail">
         Faça login para ofertas exclusivas!
       </h3>
-      <div class="cards">
-        <?php include './src/card-product.php'?>
-        <?php include './src/card-product.php'?>
-        <?php include './src/card-product.php'?>
-        <?php include './src/card-product.php'?>
+      <div class="swiper-new-collection-login">
+        <div class="button-next">
+          <img src="./img/arrow.svg" alt="" class="icon">
+        </div>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <?php include './src/card-product.php'?>
+            </div>
+            <div class="swiper-slide">
+              <?php include './src/card-product.php'?>
+            </div>
+            <div class="swiper-slide">
+              <?php include './src/card-product.php'?>
+            </div>
+            <div class="swiper-slide">
+              <?php include './src/card-product.php'?>
+            </div>
+
+          </div>
+        </div>
+        <div class="button-prev">
+          <img src="./img/arrow.svg" alt="" class="icon">
+        </div>
       </div>
     </div>
   </div>

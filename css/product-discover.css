@@ -17,11 +17,40 @@
   left: 50%;
   background: #d9d9d9;
 }
-.product .discover .cards {
-  margin-top: 2rem;
+.product .discover .swiper-discover {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+}
+.product .discover .swiper-discover .swiper {
+  width: 100%;
+  grid-column: 2/3;
+}
+.product .discover .swiper-discover .swiper-slide {
+  padding: 1rem;
+}
+
+.product .discover .swiper-discover .button-next,
+.product .discover .swiper-discover .button-prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 2rem;
+}
+.product .discover .swiper-discover .button-next:hover,
+.product .discover .swiper-discover .button-prev:hover {
+  cursor: pointer;
+}
+.product .discover .swiper-discover .button-next .icon,
+.product .discover .swiper-discover .button-prev .icon {
+  width: 1rem;
+}
+.product .discover .swiper-discover .button-next .icon {
+  transform: rotate(180deg); 
+}
+.product .discover .swiper-discover .swiper-button-lock {
+  display: none;
 }
 .product .discover .product-card-big-thumb {
   width: 100%;
@@ -105,4 +134,32 @@
     width: 100%;
     height: 26rem;
   }
+}
+@media (max-width: 992px) {
+  .product .discover {
+    padding: 3rem 0;
+  }
+}
+@media (max-width: 768px) {
+.product .discover .row {
+  padding: 2rem;
+}
+.product .discover .product-card-big-thumb .product-title {
+   font-size: 1.6rem;
+}
+.product .discover .score {
+  gap: 0.5rem;
+}
+.product .discover .score .stars .icon {
+  width: 1.2rem;
+}
+.product .discover .prices .method-1 .price {
+  font-size: 2rem;
+}
+.product .discover .prices .method-1 .description {
+  font-size: 1.2rem;
+}
+.product .discover .prices .method-2 {
+  font-size: 1.2rem;
+}
 }
